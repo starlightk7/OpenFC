@@ -1,0 +1,10698 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "767cfec1-d339-4aaa-a9e6-780e0e635760")
+	(paper "A4" portrait)
+	(lib_symbols
+		(symbol "power:VCC"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(circle
+		(center 147.828 217.678)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0098ce54-e6e6-4fe2-9546-92fcb7ebb0d4)
+	)
+	(circle
+		(center 63.246 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00ea61af-06a6-478d-a193-dbaa4f468707)
+	)
+	(circle
+		(center 126.238 240.538)
+		(radius 2.3418)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 00ef1a74-2d10-4bc8-99e5-7c7572883446)
+	)
+	(circle
+		(center 135.636 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 012cee5f-44a2-446b-b0db-11b93b3269fb)
+	)
+	(circle
+		(center 74.676 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01645fff-c2ae-44b9-abf3-1b2140dbfb49)
+	)
+	(circle
+		(center 50.546 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0171641d-9a51-411a-b6ed-54088fea0dc2)
+	)
+	(circle
+		(center 52.832 69.85)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 01b50038-6080-4894-bb6c-ba1ffb14b7c0)
+	)
+	(circle
+		(center 65.024 178.308)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 022e737a-342d-4598-8a17-0a389f26d708)
+	)
+	(circle
+		(center 137.668 214.376)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0238bb49-3289-4830-8559-d3e5f222be7e)
+	)
+	(circle
+		(center 96.52 241.808)
+		(radius 0.508)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 02e79cd8-c8d8-486a-a386-82bad3da7b04)
+	)
+	(circle
+		(center 152.654 232.918)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 02f4ee22-2906-404b-9c4a-521108e507ec)
+	)
+	(circle
+		(center 70.866 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 02fb4c50-acff-4a1c-b323-162200a3c6c8)
+	)
+	(circle
+		(center 59.182 219.202)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03257fc1-49f0-4330-adaa-5b8f0e0cf529)
+	)
+	(circle
+		(center 52.578 123.698)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 035e883d-a983-441d-920d-2aa9bfa85b5f)
+	)
+	(circle
+		(center 160.274 213.106)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0374b416-85cd-49f0-a8b7-391061da781a)
+	)
+	(circle
+		(center 105.156 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03c72b05-65cf-45f8-8e25-2f44aa3c655d)
+	)
+	(circle
+		(center 96.012 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 03ca8731-b87e-4197-bd42-1aa8827843de)
+	)
+	(circle
+		(center 96.266 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04054c66-d82f-47d0-a732-17ae73736b42)
+	)
+	(circle
+		(center 120.396 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04dfdf52-5b60-4d65-9faa-fe7df2044e50)
+	)
+	(circle
+		(center 49.276 224.028)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 04e5bb55-4970-485b-9b6b-a75b1bbfba68)
+	)
+	(circle
+		(center 126.746 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05368643-e498-40f9-a088-52172e8fc3db)
+	)
+	(circle
+		(center 76.962 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05676e8a-4cae-49ce-84c9-d8b4cc825d3d)
+	)
+	(circle
+		(center 63.246 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 05e43254-eaf7-4340-a198-088e6230d5d2)
+	)
+	(circle
+		(center 137.16 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 060f63eb-c8bf-4258-be85-470bbf0a4fcc)
+	)
+	(circle
+		(center 97.536 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 067c7573-ba03-446c-a631-3d292bc06c2e)
+	)
+	(circle
+		(center 57.912 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06f13600-1163-461a-942d-78fdeb9768f6)
+	)
+	(circle
+		(center 143.256 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 06f581fc-4318-47c3-b733-b1305d1e0ad6)
+	)
+	(circle
+		(center 155.956 60.198)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 07046514-922c-407f-bb06-d838c05e71a3)
+	)
+	(circle
+		(center 122.936 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 07049cdd-6cdf-4d81-b428-04af55207bfe)
+	)
+	(circle
+		(center 171.704 40.64)
+		(radius 3.7503)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08190452-7154-4b15-9fd1-8c38f9f53b8e)
+	)
+	(circle
+		(center 160.274 218.186)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 087feb03-4554-4d09-88d9-69afc4d4b852)
+	)
+	(circle
+		(center 49.784 178.308)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08a1b14c-c7d5-4edd-a6cd-0c1ea430beaf)
+	)
+	(circle
+		(center 126.746 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08aa4f8a-ac40-45ce-baff-be620758e335)
+	)
+	(circle
+		(center 86.106 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08f4af65-da92-4e41-84ab-b085d5692ad1)
+	)
+	(circle
+		(center 78.486 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 08feebbf-1b04-4226-a019-c7cbc45947b8)
+	)
+	(circle
+		(center 89.916 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 09d36e4e-0603-457a-920b-df0ddf9fc4ee)
+	)
+	(circle
+		(center 55.118 147.828)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 09eaae2b-f05e-4404-9560-d601cc6e7e82)
+	)
+	(circle
+		(center 108.966 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0aa6e9fd-55a4-468c-9645-02c21eac1964)
+	)
+	(circle
+		(center 134.62 21.082)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0aab1b1f-e6a2-49bc-917a-7dd7d27992ca)
+	)
+	(circle
+		(center 66.548 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0bae83f6-3754-45f7-8f2e-1d00d5dd033b)
+	)
+	(circle
+		(center 132.842 229.616)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0beee4a8-3408-4af7-87d0-77a3571f4242)
+	)
+	(circle
+		(center 65.786 221.234)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c0b1e45-40bb-49a5-bfb7-5e0e057aaa5f)
+	)
+	(circle
+		(center 130.556 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c2c9156-57b3-4346-968d-0162f73075e6)
+	)
+	(circle
+		(center 67.818 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0c9515a4-1f3e-48e0-b254-81a0299808a7)
+	)
+	(circle
+		(center 93.726 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0cb09009-f087-4c54-9c5e-7f4aff8ab83e)
+	)
+	(circle
+		(center 150.114 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0d876faf-7ad8-40cb-9042-eb6616bfadf4)
+	)
+	(circle
+		(center 153.162 25.4)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0da9e7d6-179f-4c0a-a39b-26ef3a2bd519)
+	)
+	(circle
+		(center 74.676 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0dc5fb15-d83d-4127-98e9-79aa7d5090be)
+	)
+	(circle
+		(center 67.31 167.64)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e26bd71-71e5-4a4e-965a-a13a61085302)
+	)
+	(circle
+		(center 68.326 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e425cb6-6dd1-4166-9337-eb7ee7f00de1)
+	)
+	(circle
+		(center 86.106 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0e55d5c4-3fa1-4a0a-8e35-fccbf92194f0)
+	)
+	(circle
+		(center 147.828 232.918)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ec65014-e1a3-4184-af71-faa2773f29e5)
+	)
+	(circle
+		(center 131.572 240.792)
+		(radius 1.27)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0ec856ea-d09f-4564-b808-1cc2bfbaa88e)
+	)
+	(circle
+		(center 112.776 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0eec2524-6dab-452e-bc4f-1b1480c11978)
+	)
+	(circle
+		(center 71.628 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0eec9952-aa3d-4ad7-9dc9-778adf15354f)
+	)
+	(circle
+		(center 145.034 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0fdc36e9-5c73-4a9b-9f1e-228cc2148d92)
+	)
+	(circle
+		(center 122.682 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 0fdeec67-69ff-488a-8ac9-cb8e58385ece)
+	)
+	(circle
+		(center 143.256 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10294dc3-b700-4082-8a33-37c309637e62)
+	)
+	(circle
+		(center 139.954 25.654)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 106ae11c-e622-42a9-b10a-90ac92f1ae4a)
+	)
+	(circle
+		(center 103.886 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10924859-1c2d-4c15-9d9b-1e2bb6ad61d5)
+	)
+	(circle
+		(center 81.026 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10c3a075-3771-4e88-8f28-2bf0cd1f0953)
+	)
+	(circle
+		(center 70.866 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10e34a06-5f48-49b2-ab69-a8de54ebdf61)
+	)
+	(circle
+		(center 78.486 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 11258413-34f6-4f03-bcbf-35a31b2c4b04)
+	)
+	(circle
+		(center 49.784 22.606)
+		(radius 2.3418)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 11abf0be-ed2a-4d7d-96cb-b84dc995952e)
+	)
+	(circle
+		(center 121.92 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 11bfb227-ffdc-4313-86a5-cc00427f9fc9)
+	)
+	(circle
+		(center 137.16 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 123c10fa-7b19-4f8d-ab69-164ed39bc630)
+	)
+	(circle
+		(center 84.836 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12e9492c-9978-44e8-aac5-0674065e876f)
+	)
+	(circle
+		(center 134.366 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 135dad47-478d-42c3-bd5a-f61e7fb101ca)
+	)
+	(circle
+		(center 96.774 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1366bdaf-5c25-40fb-876c-083889d5f369)
+	)
+	(circle
+		(center 107.442 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 13c58720-6c25-4cb6-bcda-009f6ea44b67)
+	)
+	(circle
+		(center 88.646 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 141f6c9c-a3d9-4e65-9540-a400fd0fa328)
+	)
+	(circle
+		(center 116.586 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14853991-6771-43d9-8ac0-93e6e2ae59cb)
+	)
+	(circle
+		(center 155.956 65.278)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14916477-dd66-4c98-a373-da8018a9f5d4)
+	)
+	(circle
+		(center 149.352 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14a1d2ed-8253-433e-b0a1-de5ca44eb158)
+	)
+	(circle
+		(center 144.78 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14be579b-2e94-4eae-9e66-b7f1985c8fbd)
+	)
+	(circle
+		(center 97.536 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 14e3b35d-4f9f-4b5b-b410-fd3c2084faac)
+	)
+	(circle
+		(center 59.182 219.202)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1508d542-5bf9-4f2c-ad77-b31cddb1aa31)
+	)
+	(circle
+		(center 141.986 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1560da06-21d5-4831-b4f2-fd0619d4d8ac)
+	)
+	(circle
+		(center 100.584 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 157c593a-49b6-42a5-9b68-67940002a313)
+	)
+	(circle
+		(center 128.016 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1591c7c8-cc76-4f0b-8f08-d490f41bb983)
+	)
+	(circle
+		(center 70.866 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1655808a-62d2-4635-a53a-8df6a1bef085)
+	)
+	(circle
+		(center 124.206 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1693d32c-fb29-475c-aef6-99ea06046957)
+	)
+	(circle
+		(center 147.066 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 16e3b58b-ed3a-40e9-8bf4-f30b81714869)
+	)
+	(circle
+		(center 135.636 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1713f30d-4f8d-4d3d-bfe2-c7e15f8a7aac)
+	)
+	(circle
+		(center 105.156 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 17f5082e-9d01-42dc-8b8f-3ce3f771b8b1)
+	)
+	(circle
+		(center 78.486 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 182f269a-942e-439d-a438-8d22a269dea3)
+	)
+	(circle
+		(center 61.722 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1890b125-1488-4aa7-852a-d74f4fcac160)
+	)
+	(circle
+		(center 65.786 206.248)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a30a5bf-f03b-42e6-b82b-9d7e196dcf3e)
+	)
+	(circle
+		(center 139.446 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a5279d4-a78f-44d1-a8e0-198e88dab9d4)
+	)
+	(circle
+		(center 104.394 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1aff1470-b00b-4c28-b0e0-fded9e187650)
+	)
+	(circle
+		(center 82.296 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b1464d1-a1ec-4970-9dad-7f483aa2760c)
+	)
+	(circle
+		(center 110.49 25.654)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b265c48-e4ee-43dd-800e-2e9f54876a7f)
+	)
+	(circle
+		(center 62.738 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1b68058d-e610-4fc6-9c68-70e5cd2700e9)
+	)
+	(circle
+		(center 67.056 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1bea9196-1169-4cc0-b0fb-bd3b055cff52)
+	)
+	(circle
+		(center 77.724 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1c9f8b57-9adb-4a2a-b161-6f280267a79b)
+	)
+	(circle
+		(center 52.832 74.93)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1cf6572c-ed10-4aa6-b4c4-ea65b05a7f88)
+	)
+	(circle
+		(center 154.686 241.808)
+		(radius 0.508)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d082d72-c2ba-41ee-a826-f2bb9162aa77)
+	)
+	(circle
+		(center 103.886 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1d61f512-813b-4ba9-85b7-6018cd141ae8)
+	)
+	(circle
+		(center 161.036 147.574)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1daefd00-6ca8-4ff4-b370-6f5d9427983e)
+	)
+	(circle
+		(center 124.206 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1de571fe-b8f4-49e5-8973-eb57443c3efb)
+	)
+	(circle
+		(center 96.012 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1df00531-2018-4f17-9e0c-a5a32030ee9a)
+	)
+	(circle
+		(center 57.404 189.23)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e31fde3-931f-4b49-9725-b57136bbd416)
+	)
+	(circle
+		(center 101.346 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e6bb54f-27ea-4dc2-8442-77e6d481be93)
+	)
+	(circle
+		(center 69.342 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1e947273-b35b-4bc0-98c2-bdc93231b8c8)
+	)
+	(circle
+		(center 92.202 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1f4147b9-cc35-47dd-b483-45e09ac6fb77)
+	)
+	(circle
+		(center 97.536 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1ffcdf87-36a3-4bb2-bdb2-13a2aa03adf5)
+	)
+	(circle
+		(center 137.922 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 20ea338c-d4d3-4169-9521-31754dbe2135)
+	)
+	(circle
+		(center 103.886 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 20ecf77c-45bd-4ed1-a519-b7e7cb66125c)
+	)
+	(circle
+		(center 131.826 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2111bc11-f062-46a0-8f02-8e3c1d9ae6e0)
+	)
+	(circle
+		(center 96.266 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 212c460f-d1be-4253-8771-196309b570eb)
+	)
+	(circle
+		(center 111.506 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 222bec40-ea61-452c-aa10-c5cfb6161db2)
+	)
+	(circle
+		(center 107.442 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 226c8d83-389e-47dd-9348-d966fc592837)
+	)
+	(circle
+		(center 145.542 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 23412a78-e9fd-46c6-b90a-4c85c97a442a)
+	)
+	(circle
+		(center 67.056 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 236a8dfe-1a5b-447f-b5c4-ad2d73bac920)
+	)
+	(circle
+		(center 143.256 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 24185910-270b-4d5d-bae9-3c1de9d36036)
+	)
+	(circle
+		(center 111.252 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2465b1ac-5182-4e12-a0ca-59bb9114330a)
+	)
+	(circle
+		(center 82.296 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 250ab559-a3a2-4446-bd86-57e9a6d7393a)
+	)
+	(circle
+		(center 149.606 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2555aad2-4805-4454-8997-25d40d3f28f4)
+	)
+	(circle
+		(center 96.012 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 25c39c6c-24cc-41d7-9d66-2d594fc97277)
+	)
+	(circle
+		(center 130.302 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2639983c-0c65-43f8-9550-8528a40a7dcf)
+	)
+	(circle
+		(center 66.548 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 266dff04-8a8b-4c8c-83ea-304beab4a3f5)
+	)
+	(circle
+		(center 115.57 25.654)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2673a9a6-d643-461e-adb7-73d5c8b71188)
+	)
+	(circle
+		(center 99.822 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26b4aa39-eefc-4d0a-b2b8-ddd95e4479ff)
+	)
+	(circle
+		(center 119.38 231.394)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 276378a0-eaea-4e22-99fe-2fc7414c6759)
+	)
+	(circle
+		(center 67.31 167.64)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2770559b-b385-4f9d-894c-873afa6a450f)
+	)
+	(circle
+		(center 135.636 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 277bd7cf-d7ef-40ad-8453-d33dc02d99ee)
+	)
+	(circle
+		(center 128.016 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 279ba4d0-2803-4330-b799-bf748c7246f2)
+	)
+	(circle
+		(center 122.936 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 27f52a8f-2d91-4196-bbf3-ea6199cea13b)
+	)
+	(circle
+		(center 59.182 224.028)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 280007d9-5d87-4216-b898-2cf48b9dbbe2)
+	)
+	(circle
+		(center 65.024 183.388)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 28e77c06-cff7-4992-9c93-3c62e12dae0f)
+	)
+	(circle
+		(center 141.986 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 290e6e24-9fd2-466d-a18f-7fda3444539b)
+	)
+	(circle
+		(center 81.026 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2960a9ce-1357-4380-a7d6-b34ef954d9a2)
+	)
+	(circle
+		(center 103.632 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 299b410c-8f85-47af-8a6f-1b790ef61766)
+	)
+	(circle
+		(center 55.118 118.618)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a584c5f-b619-42eb-9981-14933e6342b1)
+	)
+	(circle
+		(center 65.024 173.228)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a5b4351-0303-4cdb-8076-8b2c85e65800)
+	)
+	(circle
+		(center 88.392 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2a6c72cd-ac56-43e8-a750-283878b610b4)
+	)
+	(circle
+		(center 52.578 113.538)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b2866ca-cf09-4b9f-ad97-48ba26548489)
+	)
+	(circle
+		(center 55.118 147.828)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b3f38cf-eb64-4d36-be71-42c887fa6791)
+	)
+	(circle
+		(center 86.106 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b99eaed-9db9-4546-9f73-fbc0b6b165bc)
+	)
+	(circle
+		(center 131.826 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2b9e76a5-03bc-4078-ab83-93d05b1c79f8)
+	)
+	(circle
+		(center 67.056 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2cffef0e-d3f1-4a13-b13d-b777d079e18c)
+	)
+	(circle
+		(center 115.316 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d368478-8e12-4f4e-b2a5-719c98f7b96f)
+	)
+	(circle
+		(center 134.366 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2d3eec54-17ff-49c6-bcf2-2c2c54e18776)
+	)
+	(circle
+		(center 77.978 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e4c6853-d846-45ce-9660-fc70cc930043)
+	)
+	(circle
+		(center 97.536 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e6386ce-cae2-4ecc-9362-0e03b63faf12)
+	)
+	(circle
+		(center 124.206 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2e924d9c-f62a-4aac-93d8-0affab5d443d)
+	)
+	(circle
+		(center 89.916 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2eec182b-678b-4136-b5ff-a1f74fd4f991)
+	)
+	(circle
+		(center 107.442 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f19ba62-916c-4334-876e-107f1776d031)
+	)
+	(circle
+		(center 145.034 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f3204b2-9b46-4381-ad25-5606270abb20)
+	)
+	(circle
+		(center 128.016 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f54a183-6b4c-4d57-8bce-a9f9a3ba18ee)
+	)
+	(circle
+		(center 72.136 177.8)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 2f91348d-86f8-4abe-872c-a240aeff2a47)
+	)
+	(circle
+		(center 124.206 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30133c90-7e6e-489f-866f-75390f6688e3)
+	)
+	(circle
+		(center 152.654 232.918)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 301b609c-3111-4594-b9e5-3b6c81eedc84)
+	)
+	(circle
+		(center 67.056 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 30ee9007-3937-4116-a0f6-5c438f69fd83)
+	)
+	(circle
+		(center 86.106 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3124bbc2-2150-4432-8de8-d960e1207ff8)
+	)
+	(circle
+		(center 88.646 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31454f71-1161-47de-b3a5-1e889acffec4)
+	)
+	(circle
+		(center 84.582 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3160b575-f900-419b-bf6e-b9d6da10c1de)
+	)
+	(circle
+		(center 63.246 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31963e14-b2e9-4521-b945-bd3b0514d334)
+	)
+	(circle
+		(center 80.772 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 31a8e09c-7002-4fe9-8f52-54b695112584)
+	)
+	(circle
+		(center 143.256 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3280bc4f-28ba-474f-894f-30587e38a4b2)
+	)
+	(circle
+		(center 92.202 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33183581-ad95-4bff-8421-b9a955437ed2)
+	)
+	(circle
+		(center 108.966 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 331ae830-6248-4943-8781-b438a96f2973)
+	)
+	(circle
+		(center 131.826 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33367058-d48a-4154-a6c2-5df9826c62b9)
+	)
+	(circle
+		(center 135.636 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 339bb35b-e36a-4e68-9b5d-1244c60095aa)
+	)
+	(circle
+		(center 49.276 142.494)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33ad1911-d325-4bca-933b-a8f4f0c5c201)
+	)
+	(circle
+		(center 89.916 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33b59753-2bb0-4fcd-8ebe-3efb24c864f2)
+	)
+	(circle
+		(center 149.606 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3421c1ad-618e-4d3a-9fe6-c4511ad5538b)
+	)
+	(circle
+		(center 93.726 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 343b11d0-2b44-4a77-887a-f404966d3829)
+	)
+	(circle
+		(center 81.534 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 344f4d7b-49b2-4145-b3c2-5db63d07f675)
+	)
+	(circle
+		(center 97.536 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34e7a0c0-2278-45cd-9943-efa501eec93f)
+	)
+	(circle
+		(center 92.456 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 360574a9-28bb-46bd-91c5-8834ff4e295c)
+	)
+	(circle
+		(center 70.104 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 362efef7-51fe-4f04-9d88-d2edb418f2ac)
+	)
+	(circle
+		(center 148.59 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 363caf37-4444-44ea-a88f-c9181abe7714)
+	)
+	(circle
+		(center 93.726 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3675254b-1690-4fce-899b-ff1649e6151b)
+	)
+	(circle
+		(center 131.826 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 369e671a-e1c4-4c7b-8942-933d9e87b4e4)
+	)
+	(circle
+		(center 119.126 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 36a3eba1-4057-4f5f-9f55-97f0512d7f92)
+	)
+	(circle
+		(center 161.036 142.494)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 36ab1e2f-1b2f-447a-a15d-5c931aa5267c)
+	)
+	(circle
+		(center 80.518 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 371903ce-6109-4d1f-86cd-14d43fade245)
+	)
+	(circle
+		(center 93.472 25.4)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37995682-4d50-423b-b15f-f0163ae75dc2)
+	)
+	(circle
+		(center 67.056 157.48)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 37c5b05e-3f6e-4cf8-9e05-75a644ea951f)
+	)
+	(circle
+		(center 131.826 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3808b5d0-325c-4fb0-a642-03c2197123dc)
+	)
+	(circle
+		(center 52.578 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3832e74b-b393-4683-abf9-37660a27300c)
+	)
+	(circle
+		(center 54.102 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 383911c7-791b-4666-b5de-76ff8e66906d)
+	)
+	(circle
+		(center 52.578 113.538)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38884957-0bba-4130-9d1e-4f26f3588249)
+	)
+	(circle
+		(center 97.536 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38e50eff-7f3a-4333-8177-55bcb7d7011f)
+	)
+	(circle
+		(center 96.012 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39138221-cf7b-4814-9e47-61284220f3ac)
+	)
+	(circle
+		(center 103.632 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39929289-f998-4804-8d57-d9493ff4f02e)
+	)
+	(circle
+		(center 145.796 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a07291f-13e5-4e6e-a240-2ef0e01bc3b8)
+	)
+	(circle
+		(center 58.166 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a53c190-fccc-4ae2-97dd-e16e52c33f94)
+	)
+	(circle
+		(center 105.156 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3a779117-6468-4c02-b607-ef79c080ad7c)
+	)
+	(circle
+		(center 70.866 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3ad983b7-028c-43c3-ae4e-5d15b5a86aa9)
+	)
+	(circle
+		(center 157.226 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c2c9de4-3a95-4710-98cd-cbf9635c613f)
+	)
+	(circle
+		(center 137.16 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c2e183d-38c7-4efc-8fb1-12b6eeaad6c7)
+	)
+	(circle
+		(center 82.296 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c3178fe-be06-40f2-b67a-54eb780b4cfc)
+	)
+	(circle
+		(center 160.782 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c364cdf-bcc3-406e-81d3-28eafd880e2d)
+	)
+	(circle
+		(center 115.062 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c54c505-5ac7-487e-843b-939629959894)
+	)
+	(circle
+		(center 98.552 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c580a9d-dd0b-47bd-a9df-6b793aa56461)
+	)
+	(circle
+		(center 145.796 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3c995423-5396-4226-b479-8f4a53bdff7d)
+	)
+	(circle
+		(center 82.296 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3cbd3b76-bb36-4409-b503-633a79799167)
+	)
+	(circle
+		(center 85.344 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3cf0c425-599f-432e-a061-b888eb5880b0)
+	)
+	(circle
+		(center 112.776 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d00619e-f032-451b-912d-2557dccb3e9d)
+	)
+	(circle
+		(center 107.442 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d2c2dc1-8af2-4fc3-b141-51df5058c305)
+	)
+	(circle
+		(center 126.746 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d3287e6-6755-4994-be1b-6151e1645e79)
+	)
+	(circle
+		(center 128.016 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d4ef621-0931-4be1-afad-747cbe56c3ac)
+	)
+	(circle
+		(center 84.582 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d7503dc-d6c9-4fd0-9ece-90da15abf19f)
+	)
+	(circle
+		(center 135.636 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3d79483a-c8f7-461f-8b68-f6d013e23990)
+	)
+	(circle
+		(center 100.076 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3daba90f-ee14-4445-b768-06b204311318)
+	)
+	(circle
+		(center 129.54 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e26172d-2e3e-43de-857f-9e996d3e5e6b)
+	)
+	(circle
+		(center 108.204 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e388dee-a4c0-4ebd-9e74-c8fe14a95653)
+	)
+	(circle
+		(center 78.486 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e5e8a65-fcac-4e94-ae9d-280e56811371)
+	)
+	(circle
+		(center 72.644 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e7d93c7-e5c2-40c1-a7de-d2676ce457f9)
+	)
+	(circle
+		(center 72.136 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3ebb6cd2-1fed-47b3-afbb-b4337b40680e)
+	)
+	(circle
+		(center 63.246 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f5344ff-4371-45d6-be19-9ff3d6678de5)
+	)
+	(circle
+		(center 67.056 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f76b374-8c75-4d2a-aa45-98d95a6ac93c)
+	)
+	(circle
+		(center 62.484 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3f8dcf5b-92d8-4c04-862d-8e513a9bbd17)
+	)
+	(circle
+		(center 92.202 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3fdc06f8-fc2d-476a-8f9c-da86e0407543)
+	)
+	(circle
+		(center 157.226 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4014a053-dbbb-4af5-a663-81c6b1867335)
+	)
+	(circle
+		(center 147.066 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 403be1f6-4cff-48c9-bdca-1a739dbd987e)
+	)
+	(circle
+		(center 108.966 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 403c6500-8b32-4f3a-a656-58f13fc93a6a)
+	)
+	(circle
+		(center 75.184 207.772)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40510eb7-8b2e-4bee-a859-b2647fd5bef7)
+	)
+	(circle
+		(center 149.352 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 406fc92c-041d-4789-a552-daca9429475c)
+	)
+	(circle
+		(center 160.528 100.584)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40c575eb-269a-4d98-ba48-708ecc169330)
+	)
+	(circle
+		(center 135.636 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 40df3925-5510-4c47-bef8-06ad3598bc00)
+	)
+	(circle
+		(center 54.102 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41617ad8-1fa5-475a-8001-8b8bd5a099a7)
+	)
+	(circle
+		(center 86.106 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 41986573-fc63-4351-9156-b36da9b0d3cc)
+	)
+	(circle
+		(center 125.73 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 43025d50-0958-4076-b680-f204d235d947)
+	)
+	(circle
+		(center 89.916 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 431b8787-4680-4efc-8015-7d50c6114cc1)
+	)
+	(circle
+		(center 111.506 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4408fd2c-e16d-4209-ae09-578938e5c7a0)
+	)
+	(circle
+		(center 140.97 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 442a5a02-1520-4f61-bea1-8041e229b640)
+	)
+	(circle
+		(center 82.296 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4469d092-bb34-4770-830c-2e0065a0b0fb)
+	)
+	(circle
+		(center 135.636 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 447c9cbf-184f-45e0-81be-16b05796dcd5)
+	)
+	(rectangle
+		(start 45.212 18.288)
+		(end 166.878 245.872)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 44d12166-ef5c-4409-b87c-6bae769dee9f)
+	)
+	(circle
+		(center 63.246 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4599a7e4-3d59-477e-a0d7-1a1ecd953e38)
+	)
+	(circle
+		(center 73.152 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 45d6a129-b7a4-4c80-89ef-e9686531e23e)
+	)
+	(circle
+		(center 65.786 221.234)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4616ad38-7219-4725-8443-36de0e1e36b8)
+	)
+	(circle
+		(center 103.886 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46a4eb4f-33da-443e-95ab-65e7a96ecad5)
+	)
+	(circle
+		(center 77.978 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46da24b2-3d33-444c-897f-5d217871a1b3)
+	)
+	(circle
+		(center 138.176 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46e9ac69-5a26-40a4-812b-6786ac9b5c97)
+	)
+	(circle
+		(center 101.346 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 46fd0e32-b493-47c4-b05c-0fe0c845774e)
+	)
+	(circle
+		(center 49.276 218.948)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4740e10e-af6b-4b07-9240-8a87b65d8148)
+	)
+	(circle
+		(center 63.246 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47586cc6-3900-4136-acbc-f3aa4a8a4070)
+	)
+	(circle
+		(center 130.556 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47be588a-48c3-4128-80ff-0b09eb56aea9)
+	)
+	(circle
+		(center 52.578 106.68)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 47e60ea3-a0c0-4384-ad2c-2e78ebc51967)
+	)
+	(circle
+		(center 126.492 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4976a4eb-5f0a-4ac8-9046-90f0870250eb)
+	)
+	(circle
+		(center 109.474 85.344)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4b598414-c357-449f-9e1e-e3fbb072ea5a)
+	)
+	(circle
+		(center 119.126 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4bbfabb9-92f5-41b2-9b4f-14e09837baec)
+	)
+	(circle
+		(center 158.242 25.4)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4c967f21-dff6-4280-ad1b-51316568ce97)
+	)
+	(circle
+		(center 75.438 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ce4f8bf-a9c0-4604-8436-938c38e4efb5)
+	)
+	(circle
+		(center 61.976 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4cf55fc8-bbe9-4ca3-bcc5-d37bc311efe6)
+	)
+	(circle
+		(center 111.252 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4de82eab-8f5d-4992-8179-5acd417b0cee)
+	)
+	(circle
+		(center 96.774 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4df087ec-e55d-453b-a76d-81a1f22ffbd1)
+	)
+	(circle
+		(center 67.056 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e1a68ab-1f1a-45ad-8300-83e6e49c956e)
+	)
+	(circle
+		(center 120.396 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4e1b2c83-5764-4037-9b0f-049bdf897d8d)
+	)
+	(circle
+		(center 93.726 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4eef05e9-7dcc-4063-b5c9-9155723b8ee8)
+	)
+	(circle
+		(center 139.446 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fbcb947-c5f3-4f72-8a0b-9df5eae451e3)
+	)
+	(circle
+		(center 141.986 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4fe1b46e-3c0f-4d4d-8de3-0a738e01885b)
+	)
+	(circle
+		(center 144.78 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50c2dc9c-ad86-42db-a357-456e1165a5b3)
+	)
+	(circle
+		(center 70.104 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 50db6904-0c9d-43cc-8f55-375a15746ef0)
+	)
+	(circle
+		(center 80.772 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 51007630-d20b-4c97-9e45-3b990822d1ff)
+	)
+	(circle
+		(center 49.784 183.388)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 51699976-b00c-47d8-9d4a-71182d681c01)
+	)
+	(circle
+		(center 137.668 214.376)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 51e44200-fa6a-4f49-b0ae-ddf3a0003c8c)
+	)
+	(circle
+		(center 92.456 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52173cf5-8384-4b9b-9036-94297c709d58)
+	)
+	(circle
+		(center 161.036 147.574)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 529b840d-0cda-486c-8b3c-bcf4c4f020c1)
+	)
+	(circle
+		(center 141.986 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 52d2e337-8dd6-4151-a0ff-6baf014a9f8e)
+	)
+	(circle
+		(center 93.726 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5317cecd-9085-4ec3-a79f-c3fa690de4c9)
+	)
+	(circle
+		(center 70.866 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53418fbc-a88c-4158-b269-19a055c459d8)
+	)
+	(circle
+		(center 49.276 137.414)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53a48ec3-dbed-444d-a0d5-23d0a53d74ba)
+	)
+	(circle
+		(center 89.916 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 53d726a0-7c94-42ce-bcab-935c9b4c7df0)
+	)
+	(circle
+		(center 122.936 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 542371d5-5367-4d5d-aab5-7df005a4083b)
+	)
+	(circle
+		(center 139.446 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5497983a-c877-44a3-9142-1299bbdca8fb)
+	)
+	(circle
+		(center 105.156 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54b0f01f-d568-4ff9-91dc-3a65b5fc819d)
+	)
+	(circle
+		(center 86.106 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 55abd2bc-1767-4a5e-8f1a-29bd8b4fe98e)
+	)
+	(circle
+		(center 140.97 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 562a141c-d984-4a06-a026-48ced351938a)
+	)
+	(circle
+		(center 131.826 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56536bd7-b0a7-4f27-86d2-e87ef6a1ae3a)
+	)
+	(circle
+		(center 93.726 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56719e77-5d1d-4943-9580-2c305208f6a2)
+	)
+	(circle
+		(center 135.636 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 56e769ca-2de5-48a9-97e7-1e6b3553197f)
+	)
+	(circle
+		(center 128.016 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 575b64a2-432f-42ae-b10f-b3c6bcb7764d)
+	)
+	(circle
+		(center 74.676 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57760135-bb9f-4005-8201-73722660d750)
+	)
+	(circle
+		(center 77.216 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57a08286-ab98-4df1-a917-0fe81c2ef6f1)
+	)
+	(circle
+		(center 93.726 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 57cf3cbe-f03b-4c4d-a7ed-7d7c19d867cf)
+	)
+	(circle
+		(center 75.184 207.772)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 589fbbea-3b7a-4215-9b8f-ef99544c930b)
+	)
+	(circle
+		(center 126.492 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 59548b23-b490-49b8-8b16-0e54297a6caa)
+	)
+	(circle
+		(center 131.826 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5a47e168-17af-486a-8b31-bb788608e528)
+	)
+	(circle
+		(center 49.276 142.494)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b280263-6de4-421d-8665-79d9cc1a2b1d)
+	)
+	(circle
+		(center 105.156 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b2c24b3-0288-4df1-8088-00c0bca39621)
+	)
+	(circle
+		(center 50.292 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b348ba8-6f2c-48a5-9fd9-d95d7fac2e43)
+	)
+	(circle
+		(center 122.936 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5b7798f2-c700-496d-ad8a-82ee7bb3eeb3)
+	)
+	(circle
+		(center 139.446 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ba9fd16-111c-4bcb-9d70-3c055205f16d)
+	)
+	(circle
+		(center 152.654 217.678)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5bdd4a39-3872-40db-985f-fac8ad930961)
+	)
+	(circle
+		(center 70.104 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5c31d860-2c16-451a-b43e-6316121ab7db)
+	)
+	(circle
+		(center 106.172 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5cf964b3-c335-4779-8361-d0817cbe4e1f)
+	)
+	(circle
+		(center 131.826 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d55e633-c299-4faf-bdf3-b04a708ed19f)
+	)
+	(circle
+		(center 115.316 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d735314-ac3a-40bd-994f-bcd7dc476675)
+	)
+	(circle
+		(center 155.956 65.278)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d74e3a0-5100-4d69-9cc3-f96e8cd83936)
+	)
+	(circle
+		(center 67.056 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5de422d0-9b96-4c52-8777-2f0e4fd41395)
+	)
+	(circle
+		(center 137.668 229.616)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e18dc63-0607-45e8-b21e-4e00ff0fa332)
+	)
+	(circle
+		(center 49.276 218.948)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e822402-44ed-47f3-b54c-86b70ab501fc)
+	)
+	(circle
+		(center 74.676 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5e9241a9-19de-43a3-978b-e1556d56e3a1)
+	)
+	(circle
+		(center 74.676 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5eaf2c6d-c053-4ac9-93cb-81fe7907ad9a)
+	)
+	(circle
+		(center 122.936 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ee43c85-d5cd-4722-a751-55dafe14dc36)
+	)
+	(circle
+		(center 160.528 198.12)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5eedaeb4-6089-49fb-b6d4-d9b25d2ad1fd)
+	)
+	(circle
+		(center 55.118 132.588)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f1bed09-c136-4e17-ae30-ca5c546fa452)
+	)
+	(circle
+		(center 88.646 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f32989f-a1b2-4cfb-bd68-c518a6a3ee65)
+	)
+	(circle
+		(center 84.836 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f85167a-3b3b-49f1-8063-49ad4ef39ea5)
+	)
+	(circle
+		(center 132.08 25.654)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5fb8c2ad-4454-4ba0-a258-78d23be8a23a)
+	)
+	(circle
+		(center 111.252 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 603c3624-1acd-432e-9765-b9e7926f9596)
+	)
+	(circle
+		(center 149.606 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 607338b2-2381-4edc-a63e-5743ab493460)
+	)
+	(circle
+		(center 133.35 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60bc4dfb-19dc-41f2-9d23-aee467a27e58)
+	)
+	(circle
+		(center 160.528 193.04)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60c02900-a7aa-49de-99fa-3b2635253c20)
+	)
+	(circle
+		(center 111.252 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 60c74d79-15ee-45ba-a461-42df926cfaa7)
+	)
+	(circle
+		(center 143.002 217.678)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6132ea33-1990-403a-a425-f36cb0b9a430)
+	)
+	(circle
+		(center 108.712 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6140abb9-2fcc-4726-b35b-7fcf248a71b8)
+	)
+	(circle
+		(center 140.97 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6220fed8-13bc-49f6-9dfb-fbdd6ea9ddf8)
+	)
+	(circle
+		(center 160.528 193.04)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 62405ffb-d3d2-4d7b-83ea-380de8a4268f)
+	)
+	(circle
+		(center 50.292 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 630701c5-ec85-4d31-9196-7767127a81d3)
+	)
+	(circle
+		(center 147.574 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6336f046-7731-4cb3-a1a0-0249974ea4f5)
+	)
+	(rectangle
+		(start 84.074 234.442)
+		(end 58.674 245.872)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6399b991-9966-4dc7-a61c-bbf973794aca)
+	)
+	(circle
+		(center 101.346 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 639eb79f-f149-4b10-945f-33f5a6d39284)
+	)
+	(circle
+		(center 124.206 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 63ce4404-1d01-4e1f-9c4a-05d5339cc792)
+	)
+	(circle
+		(center 101.346 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6486bc40-a37d-4557-b9a9-64d9ecc5e300)
+	)
+	(circle
+		(center 70.866 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6525b6e4-93f0-434d-a67c-c7b7c5564231)
+	)
+	(circle
+		(center 134.366 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 656852a7-bfde-4b02-b873-68d4b00b53a7)
+	)
+	(circle
+		(center 113.284 241.808)
+		(radius 0.508)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 656987fa-cffe-4dc0-b904-f6b777e20e48)
+	)
+	(circle
+		(center 78.486 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 659a9ce9-a03c-4dc2-ab57-6090e01b07d2)
+	)
+	(circle
+		(center 84.582 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 663a7c61-2ef2-432c-a297-ce341bffacbc)
+	)
+	(circle
+		(center 51.054 202.184)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66648589-6e30-48a1-97c7-cf081c42368d)
+	)
+	(circle
+		(center 69.596 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 66bd3bba-c13c-4935-96b4-3e2ceda54744)
+	)
+	(circle
+		(center 51.054 202.184)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 676d43a1-38a2-4544-8d95-3e51ac157ae9)
+	)
+	(circle
+		(center 111.252 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 67d5540b-0edc-48bb-9163-6cc77f8491e6)
+	)
+	(circle
+		(center 115.316 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6842f8d9-3cd6-4cbf-9fca-1718d0f47126)
+	)
+	(circle
+		(center 63.246 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6867e833-0016-44c3-9e33-e917f9984d9a)
+	)
+	(circle
+		(center 70.104 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68754b30-97a6-4b6c-9f51-e8421884756a)
+	)
+	(circle
+		(center 128.016 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 687ec64b-e1ec-4e68-9f82-ef7d1173126d)
+	)
+	(circle
+		(center 160.528 100.584)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68947cdf-e11d-4b70-ba0a-75567339fcbd)
+	)
+	(circle
+		(center 88.646 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68c4dd32-ea46-4b8e-9b7b-81f4cf94ed33)
+	)
+	(circle
+		(center 124.714 85.344)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69279e23-72ee-4b23-a8f3-76c6763491a8)
+	)
+	(circle
+		(center 65.532 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69632ad0-4be8-4a34-910a-fb6d6e37b5d1)
+	)
+	(circle
+		(center 67.056 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 696682fa-3b71-4371-966d-1295fb72e322)
+	)
+	(circle
+		(center 137.16 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 69c4dcce-36c8-4b35-ada5-bc112b7e4b5c)
+	)
+	(circle
+		(center 76.962 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6a183a56-124d-4855-8a16-91eb415678d9)
+	)
+	(circle
+		(center 51.816 239.776)
+		(radius 3.7503)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6a1bb1bf-1a81-453c-bc54-640524773283)
+	)
+	(circle
+		(center 148.59 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ad85cf7-58c0-4d3d-83e3-45e76368ad55)
+	)
+	(circle
+		(center 107.696 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ae42a2a-e373-48b1-aa01-1da0a89fb9c5)
+	)
+	(circle
+		(center 112.776 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6bd047c9-b40e-4a5d-9449-c4b0837551d1)
+	)
+	(circle
+		(center 101.346 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c0c0fe6-7100-424a-9e35-992bbec18902)
+	)
+	(circle
+		(center 99.822 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c180772-6e63-4927-9b88-f711495e217f)
+	)
+	(circle
+		(center 111.506 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c4d68e7-b99b-41d3-95a4-2233802f1e52)
+	)
+	(circle
+		(center 49.784 173.228)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6c63bf8e-60e5-4cf7-8eaf-be0c00cd82b2)
+	)
+	(circle
+		(center 73.914 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6cb86ac2-c285-466b-a698-e2c52547fa75)
+	)
+	(circle
+		(center 89.154 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d18a98a-ce59-430d-aec0-dbed38ff0c19)
+	)
+	(circle
+		(center 145.796 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d34f85a-e9e5-4043-8bf3-6bd9b8f6ef07)
+	)
+	(circle
+		(center 65.786 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d407990-299b-4439-b6e3-efd8a1638d05)
+	)
+	(circle
+		(center 75.184 200.406)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d60d415-a987-486d-a619-fee33d3d212b)
+	)
+	(circle
+		(center 112.776 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d6496c5-4cf5-4ade-9a5f-e81ce04b3eb4)
+	)
+	(circle
+		(center 116.586 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6d9c9091-4ec8-40b9-a517-19ef391ff263)
+	)
+	(circle
+		(center 72.136 189.484)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e43f176-9cea-4f35-a729-fc50c5086bd9)
+	)
+	(circle
+		(center 145.796 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6e725a01-1a3e-4c97-95f4-7200c2c813ac)
+	)
+	(circle
+		(center 107.696 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ea47737-43ca-4dac-b050-16742a7f291b)
+	)
+	(circle
+		(center 78.486 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6f38d75b-dc5b-45b5-9e73-ac7be5844aa6)
+	)
+	(circle
+		(center 49.784 173.228)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ffa3ff6-1215-46e9-a7f3-a7b33b8c1f29)
+	)
+	(circle
+		(center 55.118 118.618)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 70b56e4d-e27f-4d63-baa5-088b9953027f)
+	)
+	(circle
+		(center 111.506 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 71607bc2-50ea-4651-9812-230d855eb1a3)
+	)
+	(circle
+		(center 115.316 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 716c0376-51b8-41fa-af9e-e6ca60222302)
+	)
+	(circle
+		(center 57.404 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 717be5b1-5789-4b5b-8795-58d2732a6d5f)
+	)
+	(circle
+		(center 59.182 224.028)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7193dc55-66e1-4da4-832b-30464111e6b2)
+	)
+	(circle
+		(center 99.06 21.082)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 720bfa8b-0508-4b04-b732-caec83d7210b)
+	)
+	(circle
+		(center 49.784 183.388)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72108f3f-8cb5-4388-af6d-22dd10c8950b)
+	)
+	(circle
+		(center 116.586 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 727dbb02-7f14-4f76-a173-fe2e0175c0f4)
+	)
+	(rectangle
+		(start 62.992 208.534)
+		(end 45.212 234.442)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7296a663-b289-40e9-ade5-c866bf27eb1a)
+	)
+	(circle
+		(center 116.586 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72aeabc3-95c9-43da-95a8-d59165f59762)
+	)
+	(circle
+		(center 117.094 231.394)
+		(radius 3.2528)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 72cceeec-197e-4448-8d3a-e1b1cc2761a4)
+	)
+	(circle
+		(center 111.506 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73100c78-096e-4269-9d8b-bcea8a6ea030)
+	)
+	(circle
+		(center 88.392 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73df645f-bcd8-45f3-9cdd-a4fc0bfe21f3)
+	)
+	(circle
+		(center 49.784 168.148)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73e712ee-38b5-4331-b168-f7478e70e974)
+	)
+	(circle
+		(center 111.252 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 73f50ccd-7ca7-4397-9995-26036088046b)
+	)
+	(circle
+		(center 65.278 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 746742a6-f409-43f1-8480-a69c25dbcfec)
+	)
+	(circle
+		(center 81.026 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7503294e-1581-4a92-a050-53620d2beb8b)
+	)
+	(circle
+		(center 82.296 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75bdecf6-9427-4761-baed-8997a2d171fa)
+	)
+	(circle
+		(center 147.066 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 75fe6e20-190a-4f94-819d-375baadee569)
+	)
+	(circle
+		(center 120.396 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7616a839-bc3e-4705-b0ca-e51f568c5a0a)
+	)
+	(circle
+		(center 121.92 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 767aeba5-00fd-49b0-86e4-5adaa68476fc)
+	)
+	(circle
+		(center 81.026 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7727795c-0afa-4514-aaf6-9fac518e7381)
+	)
+	(circle
+		(center 105.156 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 783062c0-ad5d-4a60-8936-c3e4ecbbf042)
+	)
+	(circle
+		(center 75.438 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 783b0ef8-a77e-4411-b9bb-81564382fe2e)
+	)
+	(circle
+		(center 106.172 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 78596c55-01ef-48f8-a026-c3a4b6ed3f8a)
+	)
+	(circle
+		(center 155.956 60.198)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7a0f74eb-4235-4723-a4f2-1e8d2e1394ab)
+	)
+	(circle
+		(center 84.836 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ab8a8bb-26b1-4a29-8287-0fb57acaf96a)
+	)
+	(circle
+		(center 58.674 202.184)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ac8dd93-bfd8-4909-85ab-89b7b806a13f)
+	)
+	(circle
+		(center 70.866 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b6a13cd-dafa-413a-a1da-cee121b986b4)
+	)
+	(circle
+		(center 99.822 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b9da850-d0d8-4bea-ac35-353a8d0ec199)
+	)
+	(circle
+		(center 77.978 213.614)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7bb5959d-6277-4023-bb83-014c51c473b8)
+	)
+	(circle
+		(center 88.392 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7bed70be-8aa4-42f2-a14c-ab5b0406a7b6)
+	)
+	(circle
+		(center 98.552 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7c2262d8-23d7-47e3-9a9f-3d5bb75b9d41)
+	)
+	(circle
+		(center 108.966 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7cbc195a-6d73-443b-80bf-8e33bc906e03)
+	)
+	(circle
+		(center 115.316 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7d45ce11-33f0-4ae6-8fa2-5cb4e97107cd)
+	)
+	(circle
+		(center 70.358 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f01e75e-6793-439d-8f42-1f24c72571a9)
+	)
+	(circle
+		(center 81.026 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7f2c05a8-4f77-48c4-ae64-4afd1af5076a)
+	)
+	(circle
+		(center 118.872 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7fa47d6a-f791-4e24-aba8-9be6e4f8e5eb)
+	)
+	(circle
+		(center 103.632 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ffc555d-d457-4b45-b1e5-40592c937da7)
+	)
+	(circle
+		(center 86.106 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 806dac57-e39a-4554-b65e-5147357cc3e9)
+	)
+	(circle
+		(center 112.776 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 80e02283-b45f-4bff-8bab-74f4cfb9c326)
+	)
+	(circle
+		(center 128.016 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 812b484f-4ad3-4a28-84ba-973150da12c5)
+	)
+	(circle
+		(center 93.726 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 819577c1-3c6a-4c04-8a66-33915025b465)
+	)
+	(circle
+		(center 134.62 21.082)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81ce0472-1802-4cf6-8701-ce668abd483f)
+	)
+	(circle
+		(center 96.012 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8200402f-f296-4ef2-9b3b-06824c807235)
+	)
+	(circle
+		(center 108.966 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83445557-ab17-41df-af86-20461535d897)
+	)
+	(circle
+		(center 114.808 231.394)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 83c72724-b07c-425a-a384-55cd7d7c50a0)
+	)
+	(circle
+		(center 103.886 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 848000bd-59cb-4e65-b460-5e1492331fff)
+	)
+	(circle
+		(center 80.518 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84962182-2b08-441e-a588-447f3e5874b3)
+	)
+	(circle
+		(center 92.456 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84ad21b7-fb5f-42e1-8e0c-da305ff49514)
+	)
+	(circle
+		(center 58.166 154.178)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84b6ef5f-6bd3-4e4b-8d1f-92940983f15b)
+	)
+	(circle
+		(center 67.5307 22.6545)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 84edfa57-4fb2-4a6b-b8f5-b671ebf3fc1f)
+	)
+	(circle
+		(center 152.654 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8532c415-9a24-4085-9e0d-811fead2642b)
+	)
+	(circle
+		(center 130.302 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8592f1a3-f607-439b-9c22-3046ab2d8688)
+	)
+	(circle
+		(center 58.166 149.098)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85f05e84-91c9-4ccc-b216-5c85aa16db48)
+	)
+	(circle
+		(center 97.536 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86398b59-708c-4c65-bfe4-8d6d960d79e8)
+	)
+	(circle
+		(center 124.206 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86644d01-203a-42a8-a322-dac5b6acd889)
+	)
+	(circle
+		(center 99.822 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 868763be-8175-4d68-9847-814b5be40187)
+	)
+	(circle
+		(center 116.586 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8688898a-f1bc-4ce8-b479-440f8126ffc9)
+	)
+	(circle
+		(center 120.396 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86dcf738-dca4-4be2-a682-6a0a4404b8f0)
+	)
+	(circle
+		(center 88.392 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 86e3d098-908f-4f7b-a607-6bbde227e186)
+	)
+	(circle
+		(center 116.586 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 870b8ba2-0774-437e-9469-d3eb006ffc7b)
+	)
+	(circle
+		(center 103.632 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87422126-2023-437e-81af-a4e93888c758)
+	)
+	(circle
+		(center 96.266 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87582283-1b35-4740-911c-32759d4bc915)
+	)
+	(circle
+		(center 74.676 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87675488-1cc8-4933-b9ca-d6037539487c)
+	)
+	(circle
+		(center 49.784 163.068)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8791d050-e26d-4728-b9cd-c2c72407b917)
+	)
+	(circle
+		(center 65.024 168.148)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 87f495c7-3369-4964-9beb-2b55eb716788)
+	)
+	(circle
+		(center 81.026 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 88c11f9a-a71d-4dfa-b069-26a05378e1b1)
+	)
+	(circle
+		(center 160.274 213.106)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 893fb0ea-556e-40eb-852e-213f6f629b59)
+	)
+	(circle
+		(center 100.076 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89819d70-6eb4-45cd-b4ff-bab73055bd0e)
+	)
+	(circle
+		(center 111.506 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 898f8ddf-aa31-42c2-848d-d3d79bc2a77d)
+	)
+	(circle
+		(center 70.866 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89982f76-fb38-4d8d-9e19-4d7959facb1b)
+	)
+	(circle
+		(center 74.676 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89a0ae93-4f31-4621-b342-73fa014622a5)
+	)
+	(circle
+		(center 137.922 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89bc30a7-ef25-4c21-8e6d-3f53804bdd9a)
+	)
+	(circle
+		(center 89.916 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 89e7eb03-f7dc-49b2-80f1-6183ce91b863)
+	)
+	(circle
+		(center 93.726 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8b37969a-c117-49f7-b6d8-4786ff2f078a)
+	)
+	(circle
+		(center 131.826 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8bbcde61-1a6d-4ba8-bda4-4b9d5b1915e3)
+	)
+	(circle
+		(center 86.106 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8be8a096-ff1f-4fb9-a9c0-67834c072e50)
+	)
+	(circle
+		(center 143.002 232.918)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c017ab9-0ebf-441f-8af5-f9d7b60258ef)
+	)
+	(circle
+		(center 120.396 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c04bd08-e2d5-472a-8417-a5d6d375cf0a)
+	)
+	(circle
+		(center 120.396 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c163013-9795-400b-9289-5e2c27fa8efc)
+	)
+	(circle
+		(center 139.446 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c376fa8-49eb-4a3a-8222-ec9c0657a72e)
+	)
+	(circle
+		(center 125.73 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c628b21-2ff6-4729-a5c1-5981cff2c4b7)
+	)
+	(circle
+		(center 112.776 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8c678961-0a82-4dfb-a447-b152746b4f15)
+	)
+	(circle
+		(center 77.724 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8d078e54-bfca-4fe2-94b4-a787f0a28ab0)
+	)
+	(circle
+		(center 73.406 213.614)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8d42281e-592a-4e7d-9fa2-edd5e5f4c212)
+	)
+	(circle
+		(center 153.416 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8d8f355e-b7a5-4d4f-b105-d6deafb41094)
+	)
+	(circle
+		(center 97.536 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e39323f-289a-4d2e-9d71-f1741436600b)
+	)
+	(circle
+		(center 70.866 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8e8459c3-0921-44fc-8b7a-bc09ff5d9f10)
+	)
+	(circle
+		(center 68.326 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8ea5bded-d0fb-4376-a367-1f09f7f2574b)
+	)
+	(rectangle
+		(start 35.56 34.29)
+		(end 176.53 46.736)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f0e6bb2-72c3-47c3-8bbe-497d6f680e69)
+	)
+	(circle
+		(center 134.112 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f1f8e21-07c1-4a33-a8c8-eb42fe38c98a)
+	)
+	(circle
+		(center 100.076 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f28f91c-8f92-48d0-85b4-8a7b05dcbaab)
+	)
+	(circle
+		(center 156.972 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f34816a-0678-4708-922b-ee5a5f137ef4)
+	)
+	(circle
+		(center 67.056 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f3cd027-df71-4ecb-9dc5-b3aa89f166a5)
+	)
+	(circle
+		(center 138.176 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8f95f75b-360d-44f8-be8d-aee731dc33da)
+	)
+	(circle
+		(center 107.696 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8fed6596-2ac9-442f-820a-3156404521d2)
+	)
+	(circle
+		(center 84.582 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 906edd04-681c-47d3-9abb-56685eb9a61d)
+	)
+	(circle
+		(center 128.016 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 908f2c11-1ca6-44b6-a5c0-9e2b99aa615e)
+	)
+	(circle
+		(center 116.586 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 909b4460-dc39-48cd-bbb4-0afdb40da650)
+	)
+	(circle
+		(center 131.826 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 90d1dba9-6380-4da2-a108-15c9501b508a)
+	)
+	(circle
+		(center 129.54 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 912f25ee-8193-45c1-a146-d9a3ae4792de)
+	)
+	(circle
+		(center 72.644 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91384fbe-57c9-4aff-896f-99a9e354c5f2)
+	)
+	(circle
+		(center 149.606 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91e03851-151d-4c53-b524-8ecde0521efe)
+	)
+	(circle
+		(center 120.396 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 91ffb14f-c6e9-4b3d-95d5-e28600d3b261)
+	)
+	(circle
+		(center 75.184 204.216)
+		(radius 4.5223)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 921a7b4d-c661-432a-ac28-b504bc903b70)
+	)
+	(circle
+		(center 101.346 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 926b66a9-bc38-47c4-9eee-dcce01881fb4)
+	)
+	(circle
+		(center 111.252 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92c7e619-6231-4efe-a567-63ecdd6649a4)
+	)
+	(circle
+		(center 138.176 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92f59c81-ad05-4dab-949a-a975350d610a)
+	)
+	(circle
+		(center 69.088 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 92fc99af-9891-4259-8a6e-168f945f5ba0)
+	)
+	(circle
+		(center 70.866 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 936c9593-7662-4a25-80c0-50694c2b9255)
+	)
+	(circle
+		(center 131.826 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 93fe9614-9323-4191-a6c3-37093f5facbf)
+	)
+	(circle
+		(center 144.78 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 941a77bc-fa90-4ca3-b066-6da39b0e07d9)
+	)
+	(circle
+		(center 97.536 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 948bfd1e-fe10-46d5-8ccb-bc7b0124bb0f)
+	)
+	(circle
+		(center 158.242 25.4)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94ae3ace-267f-4934-8384-f4ecdb4643c1)
+	)
+	(circle
+		(center 121.92 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94be5721-80ac-4e53-a6ed-3f8aebc947b7)
+	)
+	(circle
+		(center 70.866 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94c72854-ede7-4a35-9f09-4cedbeb9386f)
+	)
+	(circle
+		(center 129.54 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94d317b1-1d68-4edb-a142-299425b5aa8b)
+	)
+	(circle
+		(center 107.696 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94d35777-8748-460e-a693-2fa4003400b0)
+	)
+	(circle
+		(center 122.682 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 94e3b276-9055-49d2-b433-b9220893f726)
+	)
+	(circle
+		(center 52.324 189.23)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 951954fd-a889-45f5-a2f3-e0af3b38e00d)
+	)
+	(circle
+		(center 93.726 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 95e73dc9-2193-406c-aa78-1f5e9c9ad07d)
+	)
+	(circle
+		(center 115.062 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9645597e-cb04-4449-b92c-8cbd955ff9c9)
+	)
+	(circle
+		(center 147.574 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 965c8ce8-3aa3-4010-8c54-3ffa6810f44d)
+	)
+	(circle
+		(center 125.73 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 966053bf-f575-49c6-ba4c-b05ec0f4a2ee)
+	)
+	(circle
+		(center 128.016 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 96a82845-4e63-4abf-9d08-abe4b0228b38)
+	)
+	(circle
+		(center 61.722 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 97204285-53d4-4395-a4b0-f39368d060a3)
+	)
+	(circle
+		(center 49.784 178.308)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 97b488d6-a437-4b1c-8538-ba0d1fe30748)
+	)
+	(circle
+		(center 160.528 95.504)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 97e08bab-2c20-4184-b0b6-1a46aac597f4)
+	)
+	(circle
+		(center 103.632 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9871f6af-54ce-4f37-8013-69a17db56178)
+	)
+	(circle
+		(center 68.326 189.484)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 98bf788a-a651-47eb-96c2-f609016f4a5d)
+	)
+	(circle
+		(center 141.732 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 990c093d-da51-49a6-b4d1-3c7f941f7778)
+	)
+	(circle
+		(center 110.49 25.654)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9910989e-18e2-4235-afaa-e1ef4ea19ce3)
+	)
+	(circle
+		(center 92.964 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9967c24b-9dfd-4b5f-9c68-40441d07125f)
+	)
+	(circle
+		(center 97.536 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a15342f-e3ab-49d7-a10e-172972435f57)
+	)
+	(circle
+		(center 153.416 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a738961-711f-4590-a9ad-dcd699df69e4)
+	)
+	(circle
+		(center 134.366 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9a840f68-31f9-409e-a3cc-58e1993fa599)
+	)
+	(circle
+		(center 84.836 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9bbeb6d3-d726-4dfb-92df-b17ec676e375)
+	)
+	(circle
+		(center 89.916 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9bcc1991-f87e-4834-b471-5a4f5b7153f9)
+	)
+	(circle
+		(center 138.176 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9bf0fcfc-d58d-4f25-a683-538f3ae27419)
+	)
+	(circle
+		(center 135.636 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c1928f5-a9cc-492e-bb19-7ca9299c16ca)
+	)
+	(circle
+		(center 67.056 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9c94dbf5-fb45-49f0-b017-6ebd1b245bc5)
+	)
+	(circle
+		(center 143.002 232.918)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9cf7858a-a4c4-4b23-bec7-0bc1841c9f25)
+	)
+	(circle
+		(center 82.296 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d025fd5-3516-4f49-a08f-2fba0681886f)
+	)
+	(circle
+		(center 65.024 163.068)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9d861729-4945-4b8f-8e65-c65a6140c783)
+	)
+	(circle
+		(center 101.346 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9dd8b87e-6dd7-4017-9a9a-4ecdac2290d4)
+	)
+	(circle
+		(center 119.38 231.394)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e0af1ed-906c-4ea5-aac7-582ef0200164)
+	)
+	(circle
+		(center 64.008 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e37f1bf-7f9e-42b6-b01d-46446fa1b38c)
+	)
+	(circle
+		(center 63.246 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e54ddb8-5120-4264-8dcd-81294cbc0b9d)
+	)
+	(circle
+		(center 105.156 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e64647e-e6e5-40d2-b55b-e1d06704ead3)
+	)
+	(circle
+		(center 108.966 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e6b3437-182d-47f4-9fbb-7b3d367ef16e)
+	)
+	(circle
+		(center 77.216 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e7e26f2-622f-4ab2-bd6b-e79e869dc9ac)
+	)
+	(circle
+		(center 69.088 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ee7e473-f86f-44ef-acdb-0b8100c2b3a3)
+	)
+	(circle
+		(center 139.954 25.654)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9ef83c66-5c37-473b-9554-244d02bf9306)
+	)
+	(circle
+		(center 116.586 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9fe0842d-d9fc-4bc2-ba5b-a2b641602132)
+	)
+	(circle
+		(center 141.732 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a04542f7-cf91-4205-b84b-0318f280cf88)
+	)
+	(circle
+		(center 140.97 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a06a72e0-0614-4188-99d2-3d8f80b59cca)
+	)
+	(circle
+		(center 160.274 73.914)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1203c4a-804a-47bb-9ba5-f353b3db3c5e)
+	)
+	(circle
+		(center 63.246 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a1bf538a-6cea-4f2b-8e5d-c6d879d6b8dd)
+	)
+	(circle
+		(center 145.796 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a25c1a35-abfb-46a3-bd22-72d06040ca1d)
+	)
+	(circle
+		(center 40.386 40.64)
+		(radius 3.7503)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a2873cd5-896b-422c-8d74-fc07b0f21f55)
+	)
+	(circle
+		(center 65.024 163.068)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a39c89c1-8c67-4a8d-ab81-ccb605bd1f28)
+	)
+	(circle
+		(center 124.714 85.344)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3b8b54b-e602-4577-b601-d9629fb8883b)
+	)
+	(circle
+		(center 58.166 149.098)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3ca7780-d1d4-4467-a8e5-e87f4aec4751)
+	)
+	(circle
+		(center 52.578 106.68)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3d862d3-6bcc-4496-8e19-79902929e7a4)
+	)
+	(circle
+		(center 92.964 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a4618200-8afe-428d-8838-4d3d666ef801)
+	)
+	(circle
+		(center 97.536 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a46e120f-a111-4294-9912-5976130ca5d7)
+	)
+	(circle
+		(center 93.472 25.4)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a5a60c1f-f17b-44d4-8809-cd583c927ca1)
+	)
+	(circle
+		(center 59.944 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a5dc2a82-8c9f-422c-be64-a3b365d692c5)
+	)
+	(circle
+		(center 75.692 213.614)
+		(radius 3.2528)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a65cdc9c-22b2-4e9d-940b-e59d51274b96)
+	)
+	(circle
+		(center 160.782 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7d97b11-a031-4eb1-a729-59d00b9b55e6)
+	)
+	(circle
+		(center 103.886 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8058bb7-7dcd-48ad-a9b7-332fc71090af)
+	)
+	(circle
+		(center 137.668 229.616)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8a36aaa-0611-49d0-b65b-03d8fb494e45)
+	)
+	(circle
+		(center 75.184 200.406)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8c91682-7046-416f-9fae-960c2d02528e)
+	)
+	(circle
+		(center 125.73 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8cb219d-167e-4835-b5b9-8c21de1d1e6d)
+	)
+	(circle
+		(center 148.59 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8f4edd6-d698-44d9-ace4-19d1cf26b342)
+	)
+	(circle
+		(center 78.486 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8f97f39-e1c8-4574-8971-703be6489807)
+	)
+	(circle
+		(center 134.112 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a91e1593-53e9-40ea-b19f-c03d047382a7)
+	)
+	(circle
+		(center 101.092 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a91f515b-d322-4805-95ba-aee254e68fd2)
+	)
+	(circle
+		(center 150.114 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a9dfcffc-79aa-4868-9589-66c80af9eecd)
+	)
+	(circle
+		(center 72.136 177.8)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aa1c4063-f709-4994-965f-ebede7a03a96)
+	)
+	(circle
+		(center 65.024 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aaff19cc-56aa-452e-8730-0faf54e3192b)
+	)
+	(circle
+		(center 74.676 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ab118dff-abb1-4d1c-b17d-b937658a3bf3)
+	)
+	(circle
+		(center 100.076 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ab8b8cd7-f4d3-41e1-8bbc-601541077fbf)
+	)
+	(circle
+		(center 128.016 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac0021ec-eb40-4c42-a507-b8982e5dc95c)
+	)
+	(circle
+		(center 68.326 189.484)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac15950c-4bf7-472c-8cbe-f0a38e4a71d0)
+	)
+	(circle
+		(center 89.916 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac48d9b1-139d-4326-aa0d-d57608c15f54)
+	)
+	(circle
+		(center 105.156 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac493a15-228b-49bc-84a0-36566b870c0a)
+	)
+	(circle
+		(center 57.404 189.23)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac925a47-fc2a-4362-9832-8d8ee64e6963)
+	)
+	(circle
+		(center 65.786 206.248)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid acfc1285-754d-4feb-96df-c6d0fb16f1b4)
+	)
+	(circle
+		(center 119.126 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ad4145e4-41ce-4292-8549-a117955f9b79)
+	)
+	(circle
+		(center 78.486 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae083fc8-85b2-48a8-985a-7e6264c31b6c)
+	)
+	(circle
+		(center 67.056 157.48)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae4ca342-9628-4188-b738-105d28d656f9)
+	)
+	(circle
+		(center 124.206 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae5cf555-96a0-4b69-a5b3-643fc73734e3)
+	)
+	(circle
+		(center 67.31 177.8)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aea6a704-22dc-44bd-adcc-f46f8d5dc723)
+	)
+	(circle
+		(center 72.136 157.48)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aea851ab-8220-41ec-a8bc-d63e21417a33)
+	)
+	(circle
+		(center 72.136 167.64)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aec8cd97-b771-4469-8fea-7a1ca1e8da8b)
+	)
+	(circle
+		(center 73.152 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aecabcc4-b062-45c5-aebe-538e1443082c)
+	)
+	(circle
+		(center 124.206 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid aed92418-2233-46f1-ae01-ff149f4bed81)
+	)
+	(circle
+		(center 147.828 232.918)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af13534c-830e-480f-9fc0-d7bb5879f41a)
+	)
+	(circle
+		(center 82.296 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af174180-20ad-40dd-a64b-25a1990819e2)
+	)
+	(circle
+		(center 116.586 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af349d35-93d4-4dad-ba77-1f523f45f182)
+	)
+	(circle
+		(center 93.726 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid af7bb46e-f839-47a5-a256-5676c594fba6)
+	)
+	(circle
+		(center 108.712 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b038473d-6f49-44d5-98a5-c61e039964df)
+	)
+	(circle
+		(center 96.266 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b090e0bb-effb-48d9-b2ca-7b19b1a23f4d)
+	)
+	(circle
+		(center 58.166 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b09a95c9-0aee-4c3d-94aa-c0cfc9f50304)
+	)
+	(circle
+		(center 67.056 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b0f83512-03ea-4182-bcac-1e9d21b98b49)
+	)
+	(circle
+		(center 78.486 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b10aabf9-0854-41b4-bfad-6c5a9d50224b)
+	)
+	(circle
+		(center 99.822 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1325f4f-5aa9-4d61-8069-c85376cf3ee1)
+	)
+	(circle
+		(center 128.016 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b133d779-118a-4430-8a00-6e9ef7e24d0a)
+	)
+	(circle
+		(center 52.324 189.23)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b1a8d9d3-4936-466a-afaf-e6d7dd9e1ec6)
+	)
+	(circle
+		(center 74.676 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2596521-fd6b-43f6-97b8-cd1c9ac53f75)
+	)
+	(circle
+		(center 108.966 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2b00bce-807e-4313-84f8-c80f3e5ad3bc)
+	)
+	(circle
+		(center 73.406 213.614)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b2fe1e64-d4a5-48ea-9f5c-8eec4f4c3a64)
+	)
+	(circle
+		(center 84.582 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b314cd86-3d1e-44b0-ba53-f0ed328449c9)
+	)
+	(circle
+		(center 141.986 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b33ba76d-c452-47d8-9fb9-07f17540ef24)
+	)
+	(circle
+		(center 107.442 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b4bb5c65-3e5e-4df9-862a-49e0d0987f67)
+	)
+	(circle
+		(center 111.252 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b5926d68-48b2-4a95-912c-84e64727332f)
+	)
+	(circle
+		(center 112.776 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b6146b26-36c2-4596-9d9d-93eea4624b97)
+	)
+	(circle
+		(center 105.156 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b63611e4-9df0-4a17-9be7-39375e19cc1a)
+	)
+	(circle
+		(center 105.156 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b64b0d7a-aff7-46f3-b175-04c16e5a9806)
+	)
+	(circle
+		(center 142.494 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7039909-a36e-4db2-a12b-d3e3b9c01b13)
+	)
+	(circle
+		(center 107.442 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b725716a-f3b2-455c-a47e-7b7007418829)
+	)
+	(circle
+		(center 72.136 157.48)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b7e419cc-32bb-4dd2-ae8c-83e6822c5bf9)
+	)
+	(circle
+		(center 126.746 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b845833a-61a5-4887-9b9c-f1e5300a0de0)
+	)
+	(circle
+		(center 63.246 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b86589b5-e444-4a23-b021-c49a3fa372b6)
+	)
+	(circle
+		(center 71.628 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b87700d5-0ae8-4197-8f3f-14274f0520ed)
+	)
+	(circle
+		(center 100.076 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9020fec-890d-43e4-86fc-90a607b222ad)
+	)
+	(circle
+		(center 130.556 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b915a5b8-a4ee-4cb4-8751-bf28cbe13ef8)
+	)
+	(circle
+		(center 52.832 74.93)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9bb5a7e-fb91-4541-be20-085c959355a4)
+	)
+	(circle
+		(center 49.784 163.068)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b9fa79b7-8f40-4c43-9e6c-4bad6555beb4)
+	)
+	(circle
+		(center 82.296 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba4e8b5b-40de-4680-801b-00ef27744237)
+	)
+	(circle
+		(center 128.016 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ba90c554-ed19-47c3-9615-8d7ba950eaa7)
+	)
+	(circle
+		(center 112.776 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bad29f34-fcd8-4e54-ad88-1ad0b1d02ca9)
+	)
+	(circle
+		(center 88.392 25.4)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb7b84e6-bd98-45f9-8b75-2351e55a8d7e)
+	)
+	(circle
+		(center 86.106 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb9b9dfb-7c73-42d4-a661-b8706edff451)
+	)
+	(circle
+		(center 124.206 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bbda7bb0-60fa-4bd1-be2e-972e30c9b238)
+	)
+	(circle
+		(center 88.646 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bc5febef-0f0c-4b2b-a82f-079d66dc378a)
+	)
+	(circle
+		(center 89.154 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bce56ca6-5dc6-46e3-8c08-505f0fe0b13a)
+	)
+	(circle
+		(center 135.636 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd287c03-2c14-404b-b331-2ea2cff5b23e)
+	)
+	(circle
+		(center 79.248 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bd910db8-c4da-4566-9629-4de66fd6a089)
+	)
+	(circle
+		(center 74.676 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid be6c0e6d-717b-4ef6-bbb3-5fc3cce873bb)
+	)
+	(circle
+		(center 139.446 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bed86544-bb8e-43ed-a6bd-cfcc65750045)
+	)
+	(circle
+		(center 96.266 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf193b37-3913-423d-a0f3-28f01a495dae)
+	)
+	(circle
+		(center 111.252 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf321eaa-389f-40c0-98c0-902307297aff)
+	)
+	(circle
+		(center 140.462 241.808)
+		(radius 0.508)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf4f07f2-e0f0-42a5-8b39-24c6666e4513)
+	)
+	(circle
+		(center 147.066 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bfb9faea-3d3d-4905-b1f7-0a76e884fa92)
+	)
+	(circle
+		(center 88.392 25.4)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c0ef361f-d1e2-404d-bff3-17f7dbe2c066)
+	)
+	(circle
+		(center 67.5307 22.6545)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c0f9fa0d-92aa-4336-9e53-f8b935209273)
+	)
+	(circle
+		(center 78.486 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c132bfdc-f5aa-4342-95c3-9e73e40558f0)
+	)
+	(circle
+		(center 116.586 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c1ee4335-bdb0-4220-827e-e1b1b9bcb9a4)
+	)
+	(circle
+		(center 145.796 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c292fcdd-74ed-46d3-879a-bd6e88daecf4)
+	)
+	(circle
+		(center 120.396 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c293fd18-5b84-45e2-b13e-000af4ff4d5a)
+	)
+	(circle
+		(center 73.914 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c2fe26ef-cb82-4f02-b7cb-790fe50d7c81)
+	)
+	(circle
+		(center 92.456 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c31e99bb-db12-46fe-a937-f73658fadc14)
+	)
+	(circle
+		(center 153.162 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3be4f59-8f73-4833-8749-f65b82e6797d)
+	)
+	(circle
+		(center 74.168 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3beee87-497e-43e8-966e-419fc19d6ed4)
+	)
+	(circle
+		(center 86.106 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3f0c795-12a5-469b-a218-7ffdf581683b)
+	)
+	(circle
+		(center 55.118 132.588)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c41277ac-1189-4532-ac6a-a3c3432e9834)
+	)
+	(circle
+		(center 63.246 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c44c3ad8-24df-4af2-883f-275238483f76)
+	)
+	(circle
+		(center 160.274 78.994)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c45db150-cf6c-48f5-8413-4c45c8d3dec1)
+	)
+	(circle
+		(center 108.966 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c4d4c205-140d-4124-8e7f-3d4e11ceae55)
+	)
+	(circle
+		(center 63.246 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c57ad321-93eb-4e34-a6e8-3c494d460d9a)
+	)
+	(circle
+		(center 112.776 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c5fa6762-0685-4c91-929c-56943a03529a)
+	)
+	(circle
+		(center 77.216 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7158c56-0723-439d-bf0f-912e4d436c28)
+	)
+	(circle
+		(center 65.024 168.148)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c739b879-6f53-4783-9378-ed45e1d68607)
+	)
+	(circle
+		(center 138.176 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c74f97da-ecd9-46c0-aeac-00868815f004)
+	)
+	(circle
+		(center 133.35 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c7aa50ab-80d8-460e-9dfc-5ff5e8dbef69)
+	)
+	(circle
+		(center 72.136 167.64)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c84a4324-9717-4dd2-8a5f-c71b10eb3716)
+	)
+	(circle
+		(center 134.366 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c87379ae-7ac4-4e20-bb36-9bf0be0d0342)
+	)
+	(circle
+		(center 74.676 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c89b6a2c-88a3-4f16-be8b-07afa459a4db)
+	)
+	(circle
+		(center 100.584 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c8d998fd-5cd0-4076-9081-9995fd54fd20)
+	)
+	(circle
+		(center 57.912 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c98c50ea-f2d3-4ec8-81a5-8dadb4c2b926)
+	)
+	(circle
+		(center 59.944 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9dbab82-b1a6-4f89-8c10-8d42c43b22a2)
+	)
+	(circle
+		(center 62.484 22.606)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c9f60f86-f0a3-4661-ab9b-2bf2ab34aedc)
+	)
+	(circle
+		(center 115.316 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ca8e1cc0-fc85-4187-ba5a-57d2090e3b28)
+	)
+	(circle
+		(center 116.586 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cabfddd9-cfb8-429d-9ed7-5c6758106b60)
+	)
+	(circle
+		(center 88.646 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cb54a8e4-4957-483a-b9eb-9237dba23f6b)
+	)
+	(circle
+		(center 84.836 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cb868058-2464-49e8-a9bd-16637b8452dc)
+	)
+	(circle
+		(center 103.632 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cba44e37-5ee2-425b-9030-f14675661045)
+	)
+	(circle
+		(center 160.528 198.12)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cd6b5cc4-5b72-4b97-8698-237cab1160fc)
+	)
+	(circle
+		(center 160.274 218.186)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cdb1e43d-f9c5-4e97-b4b2-688eb93c0dd0)
+	)
+	(circle
+		(center 65.024 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ce3d2b8f-91d3-40bc-ad0d-d38311ea3089)
+	)
+	(circle
+		(center 72.898 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ce63b4f6-50f0-4276-ab0d-973781182c55)
+	)
+	(circle
+		(center 130.556 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf509165-8477-4b10-a6e5-2990ec75d36f)
+	)
+	(circle
+		(center 70.358 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf7834fc-e572-4991-bf07-94b98a03fac0)
+	)
+	(circle
+		(center 73.406 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf8ea5b6-be63-46e7-9d1c-34439d2bb35c)
+	)
+	(circle
+		(center 103.632 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cffcd269-3103-4930-9cef-7cf87bc9af2a)
+	)
+	(circle
+		(center 161.036 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d06bc785-684e-4dad-8d96-9b3009434a26)
+	)
+	(circle
+		(center 103.632 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d098e4c1-fb67-4114-8814-498e3e0ed920)
+	)
+	(circle
+		(center 58.166 154.178)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d254623d-a3e6-481a-8dfe-7435060423c1)
+	)
+	(circle
+		(center 104.394 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d264c4a2-01dd-4b51-abee-3c21b0c32e4d)
+	)
+	(circle
+		(center 50.546 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2b63a11-c3fd-4908-b00f-68bc2912ff5a)
+	)
+	(circle
+		(center 82.296 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d2e1318b-1a23-4596-a9ed-ae25ea1e12b4)
+	)
+	(circle
+		(center 78.486 60.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d31858d7-55cb-4d8d-9549-1035175c5a7c)
+	)
+	(circle
+		(center 119.126 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d31c9c56-03a3-42b5-94e0-5303a9fbc5b6)
+	)
+	(circle
+		(center 89.916 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d322a630-413f-41bc-9438-8b417d9cb0d0)
+	)
+	(circle
+		(center 147.828 217.678)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d32407c2-0464-4e73-8d72-49f5a2bfa252)
+	)
+	(circle
+		(center 116.586 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d377aa7b-560e-4532-9f81-ba46e38d18a9)
+	)
+	(circle
+		(center 120.396 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d3953e13-c898-49f2-9c94-492da7475003)
+	)
+	(circle
+		(center 92.456 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d4042628-f5bf-4d9a-9a65-8ef2a9ab242e)
+	)
+	(circle
+		(center 105.156 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d40b0274-ceaa-4e1a-9e86-f72588997879)
+	)
+	(circle
+		(center 72.898 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d52b8bd6-16b6-47c0-951c-9aa21654259e)
+	)
+	(circle
+		(center 52.578 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d53df20b-5abb-4e02-aa55-0c27e4f80861)
+	)
+	(circle
+		(center 134.366 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5495393-1564-4b18-b4f6-ac08ed913174)
+	)
+	(circle
+		(center 124.206 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d55e9847-e43a-48c9-a158-61166382eb6e)
+	)
+	(circle
+		(center 156.972 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d5c21cc3-1d5d-4247-909c-ed0b8f0e3fad)
+	)
+	(circle
+		(center 67.056 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d640be7c-be0b-44dc-bcf8-1dad05505bbe)
+	)
+	(circle
+		(center 85.344 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6a06e28-88c0-488e-bc3a-d0e8fe109e75)
+	)
+	(circle
+		(center 160.274 78.994)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6a32742-d4e9-481a-8589-faa9a8203793)
+	)
+	(circle
+		(center 126.746 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d6f4b91a-fc30-49e0-af29-dfd6fa1480f6)
+	)
+	(circle
+		(center 119.126 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d70f0315-91ae-4621-8f26-70358b761b5b)
+	)
+	(circle
+		(center 124.206 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d726ebe7-4447-4c89-845f-b407d3ed0228)
+	)
+	(circle
+		(center 149.606 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7416478-076f-49d9-b1f3-5a7f8b97afe8)
+	)
+	(circle
+		(center 132.842 229.616)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d7af1365-0376-4eb1-a2a2-2eca3cccd268)
+	)
+	(circle
+		(center 84.582 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8851c4e-3c4d-43d2-bc90-471f8ce28d89)
+	)
+	(circle
+		(center 144.78 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8abcc5c-55b1-4f44-9f1e-9b30dd1c93a7)
+	)
+	(circle
+		(center 78.486 77.47)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8ac986d-e4e8-490b-8588-41c7dcf43fc2)
+	)
+	(circle
+		(center 73.406 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d8cb7f3f-6a56-41b8-bd07-d5f5b21647f8)
+	)
+	(circle
+		(center 86.106 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d94d502e-c944-44ad-aeb7-bf058b51d116)
+	)
+	(circle
+		(center 88.392 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d98263fd-93f2-4921-b9e2-6876e8c46739)
+	)
+	(circle
+		(center 124.206 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d983cebf-fba4-4741-a0fa-149e076afae2)
+	)
+	(circle
+		(center 57.404 22.606)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da23d73e-a244-4b7d-bf6c-ae0a64853ddd)
+	)
+	(circle
+		(center 82.296 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid da2be7f2-b9da-4d15-a3dd-cd81a48a18ff)
+	)
+	(circle
+		(center 72.136 189.484)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dac90d58-fea8-44c2-80e3-327c4bcbe665)
+	)
+	(circle
+		(center 135.636 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid db17b14f-5369-4ea8-b9bd-822887242f63)
+	)
+	(circle
+		(center 130.556 160.02)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbbdcf45-5f7c-403d-8768-c434e3471d64)
+	)
+	(circle
+		(center 81.534 224.536)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dbf61b3a-0f3f-4936-b6a1-de0540bce7b0)
+	)
+	(circle
+		(center 64.008 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dd18503f-b15d-4682-97cf-83ebe6dee660)
+	)
+	(circle
+		(center 100.076 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid dda9fcb2-b539-4476-9189-d9188e6f934b)
+	)
+	(circle
+		(center 114.808 231.394)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de0246a1-1c2a-45ad-8016-b71b0e3f4f71)
+	)
+	(circle
+		(center 112.776 123.19)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de12b02e-e8a4-48ea-a335-781a61999588)
+	)
+	(circle
+		(center 77.216 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de301038-be83-4c5b-b75d-d16e0b2bb1e4)
+	)
+	(circle
+		(center 132.842 214.376)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de8258b8-4311-4e49-b1a2-fbf93dbf0f02)
+	)
+	(circle
+		(center 160.528 95.504)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid de8a9aca-ad46-47f6-95bc-094b721fe07b)
+	)
+	(circle
+		(center 138.176 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid deaed901-d8db-4497-aabd-71883300e70b)
+	)
+	(circle
+		(center 126.746 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid def3aee7-1bf1-4899-b83e-3bf4cfe78566)
+	)
+	(circle
+		(center 143.002 217.678)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df4f0190-6e93-4881-8257-22d185c9c75f)
+	)
+	(circle
+		(center 107.696 187.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid df618f23-924c-491f-8dc9-5a8a94778cc2)
+	)
+	(circle
+		(center 65.024 183.388)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e00cbbed-f889-413c-ba48-3ff9058ea17c)
+	)
+	(circle
+		(center 54.356 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e01c76d6-571c-4b6d-a8d6-46e9fc997a5c)
+	)
+	(circle
+		(center 122.936 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0233eb0-d449-442b-ae1f-5902365a0ee4)
+	)
+	(circle
+		(center 92.202 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e02c1ffa-1762-412e-a38f-0b881e4d848e)
+	)
+	(circle
+		(center 67.31 177.8)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e0a1d2ac-b25c-4fb8-ae32-d47b7f7d3243)
+	)
+	(circle
+		(center 130.556 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1052f07-95ef-49af-a98e-2cd86fb6e502)
+	)
+	(circle
+		(center 109.474 85.344)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1476e84-234a-43e3-8056-66520d708fa2)
+	)
+	(circle
+		(center 148.59 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1ac3fd9-fe43-4e2e-b79a-01c6e48a7632)
+	)
+	(circle
+		(center 149.606 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1b1f8cd-2820-4f91-a594-a7e0c11328ea)
+	)
+	(circle
+		(center 82.296 107.95)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1b452d0-55bd-4765-9bb8-90ae32c90a4e)
+	)
+	(circle
+		(center 120.396 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1ba0eb8-1967-4560-bff5-8028376c4cff)
+	)
+	(circle
+		(center 89.916 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e1ca51e5-72e7-439f-850e-94bd5c6ec975)
+	)
+	(circle
+		(center 112.776 60.96)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e25dd9eb-d1c3-4385-9e6a-50b6cd2cd418)
+	)
+	(circle
+		(center 152.654 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e2f0cead-acb5-42eb-adb6-df503b674ca1)
+	)
+	(circle
+		(center 120.396 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e342b941-6174-4736-a1a2-603cacb949ff)
+	)
+	(circle
+		(center 89.916 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e49390ec-da15-4809-87c9-ee3428b2f22b)
+	)
+	(circle
+		(center 52.578 123.698)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e4b6a1fa-7910-4d18-8bbd-2931bb6d500a)
+	)
+	(circle
+		(center 132.842 214.376)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e59ce944-8b0f-4bd3-ba9b-702ebd75e397)
+	)
+	(circle
+		(center 88.392 211.074)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e5edc1a4-3d67-4c9c-8d19-471241c5060b)
+	)
+	(circle
+		(center 74.168 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e69dabf2-722b-449c-9191-4a1a7a2e3a6a)
+	)
+	(circle
+		(center 77.216 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e6a6f731-288b-415f-bc76-a21e29202371)
+	)
+	(circle
+		(center 145.542 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e773a228-a005-4e0a-86c4-bec00db9f2a7)
+	)
+	(circle
+		(center 65.786 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e797b392-b993-4b98-ba8a-72b8655f202c)
+	)
+	(circle
+		(center 133.35 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7afd00f-c676-4c44-8b20-825d3688c08b)
+	)
+	(circle
+		(center 86.106 107.95)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e7db6c78-6999-4e34-b046-cee33ec019e0)
+	)
+	(circle
+		(center 153.162 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8064277-9576-4319-b501-f655096e8327)
+	)
+	(circle
+		(center 77.978 213.614)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e876a254-8f2b-4178-b1cb-ed7ebbb7a3e3)
+	)
+	(circle
+		(center 161.036 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e8f7edc0-c221-47cb-8d2e-9748cd1f267b)
+	)
+	(circle
+		(center 96.012 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e90d7fc6-b4d7-4151-9f59-2ff40131dc17)
+	)
+	(circle
+		(center 65.024 173.228)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e91dc2ed-520b-4a95-acd3-2d163384bbe6)
+	)
+	(circle
+		(center 89.916 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9604bf8-2e27-45cc-99d9-fb04acb06d64)
+	)
+	(circle
+		(center 67.818 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e960f802-9227-43da-b0de-c6cfa9d0de82)
+	)
+	(circle
+		(center 52.832 69.85)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea5b8762-bc28-416d-b4db-5e2938eabea3)
+	)
+	(circle
+		(center 160.274 73.914)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea5e35ff-95cc-437a-bfc3-eba6cac88eed)
+	)
+	(circle
+		(center 105.156 91.44)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ea7d25b1-ace7-4eb9-8af6-c6409ca61ed5)
+	)
+	(circle
+		(center 69.596 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eaaa32b9-1bfd-4acd-a3d5-f4b8c5a9502f)
+	)
+	(circle
+		(center 96.266 187.96)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb1b2219-dda9-49b8-8866-263e784e72d6)
+	)
+	(circle
+		(center 101.346 123.19)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb98734d-ba55-4183-a881-bbfbd3c23acd)
+	)
+	(circle
+		(center 115.57 25.654)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec50bd17-0115-4f7c-8098-2c992fb50e90)
+	)
+	(circle
+		(center 74.676 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec523009-7f1d-4fe1-b4fd-81295f931fbd)
+	)
+	(circle
+		(center 54.356 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ec8d94d2-1e88-43d4-9e81-407dc4032a94)
+	)
+	(circle
+		(center 62.738 239.014)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ecb09ed1-0052-495b-bf09-d8ea267e89a3)
+	)
+	(circle
+		(center 161.036 142.494)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ecdb8409-afef-4b71-bc19-b70652deda82)
+	)
+	(circle
+		(center 99.822 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid edc90db1-6917-4462-b336-d057c4cf788f)
+	)
+	(circle
+		(center 139.446 91.44)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eea52c03-f886-462a-80f9-45c9c16b6699)
+	)
+	(circle
+		(center 58.674 202.184)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eed3bc3e-413f-4041-b22c-33428517f9f5)
+	)
+	(circle
+		(center 135.636 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eef88f81-dca3-4d0c-9c2a-21ead8f1e073)
+	)
+	(circle
+		(center 153.162 25.4)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid efb9b1c9-d194-4e65-809a-2ce6eb402e09)
+	)
+	(circle
+		(center 139.446 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f2630ede-2b02-4602-9289-8de642a2f2ae)
+	)
+	(circle
+		(center 99.06 21.082)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f287b962-7dd6-47c5-ac37-2c5501c47755)
+	)
+	(circle
+		(center 141.986 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f36fc391-20d6-471a-985f-89acd33bf856)
+	)
+	(circle
+		(center 84.836 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f37ce993-7925-4867-831d-ed9664266c90)
+	)
+	(circle
+		(center 131.826 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f43a4d08-4522-48d1-9687-c8430535dd8f)
+	)
+	(circle
+		(center 72.136 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4f691c4-b8d3-411e-aada-ed7da37072ad)
+	)
+	(circle
+		(center 108.204 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5108dfe-f89c-45c7-8bdf-61710f81904f)
+	)
+	(circle
+		(center 93.726 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f5d30d73-34da-4960-b52d-2ec09642a036)
+	)
+	(circle
+		(center 142.494 241.808)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f62ad00b-d2b1-45b0-b394-03472d4fc152)
+	)
+	(circle
+		(center 162.814 23.114)
+		(radius 2.3418)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f676476f-9dd3-480a-8f07-8f784363d6fc)
+	)
+	(circle
+		(center 119.126 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6ce8f2a-5d4d-4c7c-82e4-c64a9d2b0389)
+	)
+	(circle
+		(center 69.342 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6d884ba-2068-4f3a-a762-4f9f2ab6dff8)
+	)
+	(circle
+		(center 77.216 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6e9df81-e6e0-412e-a23f-ab6d8fd3a148)
+	)
+	(circle
+		(center 79.248 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f6f36929-4138-47c0-b642-84747d931c6e)
+	)
+	(circle
+		(center 70.866 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f736991d-c550-4d72-82cb-b056f9536eeb)
+	)
+	(circle
+		(center 129.54 194.564)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f74745e5-9f22-4fe9-a48d-9134751fab53)
+	)
+	(circle
+		(center 49.276 137.414)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7906b0c-d144-4e0a-8d0e-99098d135506)
+	)
+	(circle
+		(center 65.532 38.1)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f7f4dd34-4825-4f54-b511-e7163419cf9f)
+	)
+	(circle
+		(center 120.396 77.47)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f800e51f-d6d4-41b5-aa06-10dedbf4b968)
+	)
+	(circle
+		(center 76.708 241.554)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f829baf7-ea8c-4323-847a-140027fdd566)
+	)
+	(circle
+		(center 118.872 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8413217-44b4-4e77-bf21-90e0272228da)
+	)
+	(circle
+		(center 132.08 25.654)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8415aff-dc52-4e48-abea-ce290085a005)
+	)
+	(circle
+		(center 133.35 194.564)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f860068c-c9aa-46a6-a15d-d822fb74c2e9)
+	)
+	(circle
+		(center 92.202 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f88fbe56-f2f3-4cff-8581-73f6e6697293)
+	)
+	(circle
+		(center 49.784 168.148)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8e2fa74-70f8-421a-bd91-af04e688331f)
+	)
+	(circle
+		(center 49.276 224.028)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f8f17a48-715c-4d67-9716-69b680d6c59e)
+	)
+	(circle
+		(center 112.776 151.13)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9583d53-3ab7-4256-a387-3f20d7e47b35)
+	)
+	(circle
+		(center 97.536 151.13)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f9d1c22e-2dc0-4b13-8033-c942ec9fe001)
+	)
+	(circle
+		(center 111.252 224.536)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa829b19-4a6e-4807-b374-1f069ba9d7e8)
+	)
+	(circle
+		(center 65.024 178.308)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fa9fb12e-f3fa-4d22-b5c3-1d6b04dc54ff)
+	)
+	(circle
+		(center 121.92 211.074)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb104b8f-ac3e-4812-a81a-69c6cfc25476)
+	)
+	(circle
+		(center 65.278 239.014)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fb3acfac-addc-4e05-b469-e4b272c49eb1)
+	)
+	(circle
+		(center 92.456 42.672)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc1ec20a-d40d-48de-a6f3-b28ca71734c5)
+	)
+	(circle
+		(center 61.976 42.672)
+		(radius 0.8032)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fcc38884-a33e-438c-a563-175f61c4af7c)
+	)
+	(circle
+		(center 107.696 160.02)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fcda9170-5512-4a62-bbb2-16b305e3b103)
+	)
+	(circle
+		(center 101.092 241.808)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fd6fc252-b934-4281-b771-495d367d8c5a)
+	)
+	(circle
+		(center 92.202 38.1)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe03d922-1902-43a0-9e4c-439fe1a2b99a)
+	)
+	(circle
+		(center 152.654 217.678)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fe2254c5-8f89-4b47-a079-71d65e51a7e2)
+	)
+	(circle
+		(center 76.708 241.554)
+		(radius 0.3592)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ffbfaa73-787f-453d-be21-6b8944b49b6a)
+	)
+	(junction
+		(at 97.536 65.532)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e8f08f8-ffbb-41b6-a381-5382ef383078")
+	)
+	(junction
+		(at 147.066 60.96)
+		(diameter 0)
+		(color 255 0 0 1)
+		(uuid "89d09a60-1dc3-4287-a8c8-ff81861c6862")
+	)
+	(wire
+		(pts
+			(xy 62.484 55.372) (xy 78.74 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "049d50bd-ae8c-460a-a7e0-7535e7e10d5d")
+	)
+	(wire
+		(pts
+			(xy 61.722 37.592) (xy 61.722 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "050c16ca-767a-4822-a72e-87c6fc3938cd")
+	)
+	(wire
+		(pts
+			(xy 54.102 40.64) (xy 56.388 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "063dfc36-f209-454a-8964-29b2dcb87d73")
+	)
+	(wire
+		(pts
+			(xy 59.944 57.912) (xy 67.564 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06a44c85-0d81-4b2a-8b22-085a4e4a085e")
+	)
+	(wire
+		(pts
+			(xy 56.388 53.086) (xy 61.214 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edbd01e-c6cc-4017-929b-4a7cd4dc135d")
+	)
+	(wire
+		(pts
+			(xy 147.066 60.96) (xy 147.066 65.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1194920e-7cf5-4e16-a054-82004244d8d7")
+	)
+	(wire
+		(pts
+			(xy 93.726 48.006) (xy 93.726 61.214)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12607cbf-d8f7-4c9e-a0ff-f81579ebb64e")
+	)
+	(wire
+		(pts
+			(xy 79.756 53.34) (xy 79.756 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15417140-652d-44b6-afce-ce305eb9f7f2")
+	)
+	(wire
+		(pts
+			(xy 64.008 40.64) (xy 64.008 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c9dcbc9-fa59-4b5c-905d-4292338e9783")
+	)
+	(wire
+		(pts
+			(xy 56.388 40.64) (xy 56.388 53.086)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21728f02-9369-43ef-b215-699ac28acb11")
+	)
+	(wire
+		(pts
+			(xy 64.008 53.34) (xy 79.756 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "259903e4-931a-4217-a492-1094f72c1f49")
+	)
+	(wire
+		(pts
+			(xy 56.896 65.532) (xy 97.536 65.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "29274ec8-3bf0-4378-a4f6-c2863754a258")
+	)
+	(wire
+		(pts
+			(xy 79.756 56.642) (xy 79.756 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bd52f5-d93a-42c1-95b1-0f88ccdeb02a")
+	)
+	(wire
+		(pts
+			(xy 69.596 40.386) (xy 83.058 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ddb96d-f9c2-4633-a2ad-f541486bc45b")
+	)
+	(wire
+		(pts
+			(xy 61.214 53.086) (xy 61.214 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ee1db03-c768-472d-b414-303cf59e9035")
+	)
+	(wire
+		(pts
+			(xy 59.944 51.562) (xy 62.484 51.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b556a5-e322-4b0b-ba8d-ec408c4ad738")
+	)
+	(wire
+		(pts
+			(xy 154.686 60.96) (xy 147.066 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "51c7de56-01a9-4bfb-aa17-8504a1b776db")
+	)
+	(wire
+		(pts
+			(xy 79.756 57.912) (xy 82.804 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57d46ebe-3ea3-48cc-96cd-93afd9088f6c")
+	)
+	(wire
+		(pts
+			(xy 57.912 40.64) (xy 59.944 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e624aac-3e35-4756-87ea-6d7c787d754f")
+	)
+	(wire
+		(pts
+			(xy 97.536 65.532) (xy 147.066 65.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "601569b4-1fdd-4ca3-ae18-5365ec18014b")
+	)
+	(wire
+		(pts
+			(xy 83.058 48.006) (xy 93.726 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "605035ce-2010-42b7-8c2f-a0a35cfad88e")
+	)
+	(wire
+		(pts
+			(xy 89.916 49.022) (xy 89.916 61.468)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68481c9c-7dc3-4701-af68-472e54f4e3bc")
+	)
+	(wire
+		(pts
+			(xy 61.214 56.642) (xy 71.628 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69aebafa-9aee-4fe5-8d84-eb6ee44a9ffe")
+	)
+	(wire
+		(pts
+			(xy 61.722 40.64) (xy 64.008 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b3bc9c9-1126-484a-a384-6f7e95664a33")
+	)
+	(wire
+		(pts
+			(xy 154.686 60.198) (xy 160.528 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "720e3d69-b6d7-4eeb-ad7d-c4c7531ad141")
+	)
+	(wire
+		(pts
+			(xy 62.484 51.562) (xy 62.484 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d9d661-20a2-432a-b6e6-3b7077b1fdd5")
+	)
+	(wire
+		(pts
+			(xy 65.786 42.164) (xy 65.786 46.228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ded811-7cea-4506-87ea-adfd0a5785ca")
+	)
+	(wire
+		(pts
+			(xy 86.614 56.642) (xy 86.614 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7edf0a-b4dd-4274-b605-a5789a2359f2")
+	)
+	(wire
+		(pts
+			(xy 83.058 40.386) (xy 83.058 48.006)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d507b61-e713-465e-858e-631eb78c165a")
+	)
+	(wire
+		(pts
+			(xy 73.406 52.324) (xy 81.788 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb882b1-d0bb-41d5-ac71-9d9030b19202")
+	)
+	(wire
+		(pts
+			(xy 56.896 65.532) (xy 56.896 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "83a15f44-9243-4de9-ab6e-ff60ca9a824b")
+	)
+	(wire
+		(pts
+			(xy 80.772 56.642) (xy 86.614 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84488a2a-4599-4ad8-91b2-4ba4a9fb7204")
+	)
+	(wire
+		(pts
+			(xy 52.324 50.8) (xy 54.356 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8795199b-f37d-4d06-bb9d-6bdb98a204f4")
+	)
+	(wire
+		(pts
+			(xy 54.356 50.8) (xy 54.356 54.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a426012-6e0f-4d21-a042-87429b4d33b6")
+	)
+	(wire
+		(pts
+			(xy 57.912 37.592) (xy 57.912 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e80d51a-7458-4ca5-8cde-8fd405329a0a")
+	)
+	(wire
+		(pts
+			(xy 164.846 58.166) (xy 160.528 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "964be00c-7f9a-4f1a-9675-5786fb0088bb")
+	)
+	(wire
+		(pts
+			(xy 97.536 60.96) (xy 97.536 65.532)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "97a74206-a546-4b3f-acd3-e8c468704181")
+	)
+	(wire
+		(pts
+			(xy 160.528 58.166) (xy 160.528 60.198)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "9833d48e-c3e0-49a6-813f-00e0764cd68d")
+	)
+	(wire
+		(pts
+			(xy 65.786 46.228) (xy 73.406 46.228)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d81740-c8ce-4264-a491-e72e4738760a")
+	)
+	(wire
+		(pts
+			(xy 81.788 52.324) (xy 81.788 49.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2387f24-4929-49d1-a4a7-165f34ab5483")
+	)
+	(wire
+		(pts
+			(xy 154.686 60.198) (xy 154.686 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a8cb0051-6df6-4f9b-a71a-6960940dcf23")
+	)
+	(wire
+		(pts
+			(xy 50.292 40.64) (xy 52.324 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abec3afd-c84a-4cf9-876e-d2fdedfb5458")
+	)
+	(wire
+		(pts
+			(xy 71.628 56.642) (xy 71.628 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7e8ead3-3be5-4c7f-bcc7-80ecbae797d2")
+	)
+	(wire
+		(pts
+			(xy 79.756 55.372) (xy 80.772 55.372)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8af0e1d-c089-494f-afbb-72353ee621c1")
+	)
+	(wire
+		(pts
+			(xy 50.292 37.592) (xy 50.292 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4e84f8-8833-4f6c-bc75-44cbbf7975c7")
+	)
+	(wire
+		(pts
+			(xy 59.944 40.64) (xy 59.944 51.562)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c421395b-6062-4678-bce9-f9ca8ea495b2")
+	)
+	(wire
+		(pts
+			(xy 73.406 46.228) (xy 73.406 52.324)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69d23a8-fbf3-44d0-af56-7503f2dff374")
+	)
+	(wire
+		(pts
+			(xy 164.846 40.64) (xy 164.846 58.166)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "cafddf35-0f08-4305-bcc6-4e605ff22aa8")
+	)
+	(wire
+		(pts
+			(xy 81.788 49.022) (xy 89.916 49.022)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee297a8-9098-4886-b00d-071328066979")
+	)
+	(wire
+		(pts
+			(xy 54.356 54.356) (xy 59.944 54.356)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ffddbf-b71c-4125-9045-6855e0a27550")
+	)
+	(wire
+		(pts
+			(xy 78.74 55.372) (xy 78.74 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcc0ce71-255c-45ba-b17d-d4efc19caa80")
+	)
+	(wire
+		(pts
+			(xy 52.324 40.64) (xy 52.324 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de1d4124-d5e5-4fb4-939a-fe1dd114cefd")
+	)
+	(wire
+		(pts
+			(xy 59.944 54.356) (xy 59.944 57.912)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2cca1ba-cf2c-4b37-a726-6b8cb05be5a7")
+	)
+	(wire
+		(pts
+			(xy 80.772 55.372) (xy 80.772 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e755b2b8-85b3-4f95-ad9d-7717ef825a20")
+	)
+	(wire
+		(pts
+			(xy 78.74 56.642) (xy 79.756 56.642)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1c249c-c559-4d3f-b823-caa908065036")
+	)
+	(wire
+		(pts
+			(xy 54.102 37.592) (xy 54.102 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f588ffc7-552c-44bd-842b-e52fcd22d59b")
+	)
+	(wire
+		(pts
+			(xy 53.086 69.85) (xy 56.896 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "f70995ee-7fad-4b12-8d6b-0f24dab07537")
+	)
+	(wire
+		(pts
+			(xy 69.596 42.926) (xy 69.596 40.386)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e089ad-4e16-48e5-b129-30ef5dcf2201")
+	)
+	(global_label "PD7"
+		(shape input)
+		(at 61.722 37.592 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "0ac51d9c-a490-443a-8aed-3f1ba270d0aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.722 34.2245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD7"
+		(shape input)
+		(at 86.614 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "4b81bf26-32ae-4ecc-a68c-79984c2c9a1d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.9815 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD6"
+		(shape input)
+		(at 57.912 37.592 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "7b936e07-ecbb-4cca-aa9d-bc99972d1b25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.912 34.2245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD4"
+		(shape input)
+		(at 50.292 37.592 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "9778527c-56c5-4e7a-8f5c-0fa27408b363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.292 34.2245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA0"
+		(shape input)
+		(at 93.726 61.214 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "a6571a91-0a15-4f58-9dbe-361c0964dbbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.726 64.4908 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD6"
+		(shape input)
+		(at 82.804 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "c13628de-8e55-4069-aeb1-7b18734ef46e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.1715 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD0"
+		(shape input)
+		(at 89.916 61.468 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "c250bb98-4363-4261-845f-4500a2c74933")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 89.916 64.8355 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD5"
+		(shape input)
+		(at 54.102 37.592 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "c9998cef-dfbf-4b99-869d-40b0f66a5573")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 54.102 34.2245 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA0"
+		(shape input)
+		(at 69.596 42.926 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify right)
+		)
+		(uuid "cee9cb81-608a-4aa4-8689-895055c42766")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.596 46.2028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD0"
+		(shape input)
+		(at 65.786 42.164 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "d3772970-0f85-4f67-bd65-87ee7081e221")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 65.786 38.7965 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD4"
+		(shape input)
+		(at 67.564 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "e3b31520-6f54-44b2-8c2e-649d6e3daa0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.9315 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PD5"
+		(shape input)
+		(at 71.628 57.912 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left)
+		)
+		(uuid "ecd3ff5d-f767-4de7-b948-09da098a4c6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.9955 57.912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 147.066 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e3fe3f4-1fb6-40be-9807-7880d07f6636")
+		(property "Reference" "#PWR018"
+			(at 147.066 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 147.066 57.658 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 255 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.066 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.066 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 147.066 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f37dadd2-536c-4c3d-882e-a650e22d3b4d")
+		)
+		(instances
+			(project "HVC-CPU-07"
+				(path "/420f0763-2841-4b0c-a0d4-7bd427aab54f/32f1b0fd-50d6-4cf1-83f2-35ccbe39b01c"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 52.832 69.596 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3478233f-2125-4076-8d58-c38c00f85a68")
+		(property "Reference" "#PWR020"
+			(at 52.832 73.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 52.832 66.294 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 255 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.832 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.832 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 52.832 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "136969cb-9259-4d07-a1c5-fcc9af8d4448")
+		)
+		(instances
+			(project "HVC-CPU-07"
+				(path "/420f0763-2841-4b0c-a0d4-7bd427aab54f/32f1b0fd-50d6-4cf1-83f2-35ccbe39b01c"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 164.846 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48802f99-61f3-48eb-90e9-542e16cc8cef")
+		(property "Reference" "#PWR017"
+			(at 164.846 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 164.846 37.338 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 255 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 164.846 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.846 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 164.846 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0622b730-dffb-44fb-9022-20495d3bfdae")
+		)
+		(instances
+			(project "HVC-CPU-07"
+				(path "/420f0763-2841-4b0c-a0d4-7bd427aab54f/32f1b0fd-50d6-4cf1-83f2-35ccbe39b01c"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 97.536 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a04b74c-cb22-43e0-9c20-9c1ce7a36c9f")
+		(property "Reference" "#PWR019"
+			(at 97.536 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 97.536 57.658 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+					(color 255 0 0 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.536 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.536 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 97.536 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab0cbad1-9b0b-4d7d-b971-1bf04970d3f7")
+		)
+		(instances
+			(project "HVC-CPU-07"
+				(path "/420f0763-2841-4b0c-a0d4-7bd427aab54f/32f1b0fd-50d6-4cf1-83f2-35ccbe39b01c"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

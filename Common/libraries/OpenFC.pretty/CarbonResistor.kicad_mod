@@ -1,0 +1,108 @@
+(footprint "CarbonResistor"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1 5.8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d3c724ef-019d-4624-98ca-d74d8c60fcc6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CarbonResistor"
+		(at 0.1 7.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ee291bf0-f18c-493a-967b-aa73a51256a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c945c991-be1a-4b6c-b256-737401795a10")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0858f9da-06e9-4c0c-8c21-b0f253e95e55")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.831638 -2.60637) (xy 0.781511 -2.503544) (xy 0.727527 -2.402003) (xy 0.666361 -2.33211) (xy 0.579714 -2.241337)
+			(xy 0.476888 -2.153935) (xy 0.3 -2.05) (xy 0.110266 -1.974277) (xy -0.011535 -1.93543) (xy -0.115776 -1.914285)
+			(xy -0.225158 -1.900852) (xy -0.4 -1.9) (xy -0.670361 -1.954583) (xy -0.835394 -2.019829) (xy -1.057995 -2.146482)
+			(xy -1.127079 -2.196375) (xy -1.265245 -2.334542) (xy -1.4 -2.5) (xy -1.478407 -2.663238) (xy -1.508911 -3.007791)
+			(xy -1.522271 -0.082893) (xy -1.509932 2.600046) (xy -1.509012 2.800041) (xy -1.50789 3.043924) (xy -1.505141 2.808223)
+			(xy -1.475579 2.633418) (xy -1.444731 2.503601) (xy -1.383035 2.386636) (xy -1.318657 2.286992) (xy -1.211157 2.17587)
+			(xy -1.104791 2.078429) (xy -0.927761 1.962393) (xy -0.79536 1.900656) (xy -0.705649 1.868548) (xy -0.592297 1.836687)
+			(xy -0.481768 1.812577) (xy -0.39444 1.805446) (xy -0.252556 1.801916) (xy -0.157904 1.810653) (xy -0.034006 1.833899)
+			(xy 0.107253 1.868548) (xy 0.196155 1.902887) (xy 0.295084 1.952723) (xy 0.406657 2.020411) (xy 0.491049 2.079103)
+			(xy 0.560746 2.135535) (xy 0.62707 2.191322) (xy 0.725006 2.304135) (xy 0.784226 2.385607) (xy 0.826823 2.459537)
+			(xy 0.854372 2.602017) (xy 0.87218 2.822708) (xy 0.912614 -3.070373)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7fc59dcd-ce1e-4a30-8a16-0d714aed5471")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 8.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af4837fc-bd19-48c2-8117-6070defb06b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.3 -3.2 270.8)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "93782d48-d0b2-44ad-b88a-5e90365403a3")
+	)
+	(pad "2" thru_hole circle
+		(at -0.3 3.1 270.8)
+		(size 2.5 2.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "257068d4-3428-4203-984a-53b170afb88d")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,88 @@
+(footprint "HVC_PWR_Wires"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "44e5f492-08ff-4872-9fa1-0a2b16b0bc5e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "HVC_PWR_Wires"
+		(at 0.1 5.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f1f6ea4f-e434-444e-bd04-c8c4b4ab3ae3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9dd0819-ead9-4eee-9586-7ebd89d6463c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8096cf0-d764-48c9-96e1-2b25578b6989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0.1 6.8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c56fb179-a57f-4915-906b-c9e7c7fd389e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -0.4 3.2 0.8)
+		(size 1.905 1.905)
+		(drill 1.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "585710ec-5beb-49fc-a164-abcf3b21aabc")
+	)
+	(pad "2" thru_hole circle
+		(at 0.6 -3.2 0.8)
+		(size 1.905 1.905)
+		(drill 1.2)
+		(layers "*.Cu" "B.Mask")
+		(remove_unused_layers yes)
+		(keep_end_layers no)
+		(uuid "992f6b6a-197e-4132-9393-29bc66499133")
+	)
+	(embedded_fonts no)
+)

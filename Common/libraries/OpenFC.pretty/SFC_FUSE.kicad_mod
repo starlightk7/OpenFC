@@ -1,0 +1,86 @@
+(footprint "SFC_FUSE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9b797157-eaef-4ba1-baa8-66d8e3ffc320")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SFC_FUSE"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "778b6012-f276-4d36-a05f-338630e5d9e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4eba8b4b-16c6-4c21-89a5-4740c06dfce1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52d9568d-ffa9-484d-8418-f8b88047bcee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 2.026232 2.684799 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c5b62c6f-e35a-464e-97d7-0111648dffbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.2 -6)
+		(size 6.60706 3.69861)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "62bcc8a3-e8b8-4d4e-aa9f-fc9d36e4bce0")
+	)
+	(pad "2" smd rect
+		(at -0.2 6.6)
+		(size 6.60706 3.69861)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "9ae05acb-f3ef-4e53-87e2-55b34268985b")
+	)
+	(embedded_fonts no)
+)

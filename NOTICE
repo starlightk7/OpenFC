@@ -1,0 +1,25 @@
+The OpenFC Project was created by starlightk7.
+
+The board files contained in the OpenFC project are (C) 2026, starlightk7.
+
+These boards are a faithful reproduction of the original designs by Nintendo, for the purpose of repair of obsolete products and education. These files are provided to the public under the CERN-OHL-S Open Source Hardware license. As these boards are now ~40-year old designs and have not been sold in over 20 years, all known patents regarding these designs are expired to the best of my knowledge at the time of writing.
+
+All original board files can be found at the following location:
+
+https://github.com/starlightk7/OpenFC
+
+Please note that when redistributing these boards, the CERN-OHL-S obligates you to do the following:
+
+* Retain this NOTICE as part of your materials (3.1)
+* Provide the design files to the public for any modifications (3.2)
+* Add an entry to this NOTICE summarizing your modifications and where to retrieve your modified source, while retaining this NOTICE (3.3)
+* Provide a link to the source on the product packaging or listing / documentation (4) and maintain its availability for at least 3 years after the date of your last distribution (1.9), or the original repository in the case of no modifications.
+
+Notice on Section 8.2:
+
+"OpenFC", my handle starlightk7, and my shooting star logo are embedded in the design files of these boards as credits for the substantial time I spent on creating these boards. As such, retaining them is needed to comply with Section 3 when producing these boards as-is unless you wish to provide a NOTICE to your customers saying you removed the credits to the original author. 
+
+If you make modifications to the board, please remove these marks and assume your own branding as those marks are no longer necessary to retain per Section 3.2, since it becomes your derivative creation. In short, please give credit where due when printing my boards as-is, but don't misrepresent your offering if you modify it. When we respect each other's work, the community will thrive.
+
+I hope you enjoy the OpenFC family of boards.
+
